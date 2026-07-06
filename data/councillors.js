@@ -1,4 +1,4 @@
-// GENERATED from councillors.json — do not edit by hand (scripts/refresh.mjs rebuilds it).
+// GENERATED from councillors.json by scripts/refresh.mjs — do not edit by hand.
 window.COUNCILLOR_DATA = {
   "generated": "2026-07-06",
   "attribution": "Contains Irish Public Sector Data (Dublin City Council; Dún Laoghaire–Rathdown County Council) licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) licence.",
@@ -108,7 +108,7 @@ window.COUNCILLOR_DATA = {
             },
             {
               "name": "Aishling Silke",
-              "party": "Non-Party",
+              "party": "Social Democrats",
               "focus": "",
               "email": "aishling.silke@dublincity.ie",
               "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1162",
@@ -127,7 +127,7 @@ window.COUNCILLOR_DATA = {
           "councillors": [
             {
               "name": "Ray Cunningham",
-              "party": "Green Party",
+              "party": "Green Party-Comhaontas Glas",
               "focus": "",
               "email": "ray.cunningham@dublincity.ie",
               "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1163",
@@ -209,7 +209,7 @@ window.COUNCILLOR_DATA = {
             },
             {
               "name": "Philip Sutcliffe",
-              "party": "Non-Party",
+              "party": "Independent Ireland",
               "focus": "",
               "email": "philip.sutcliffe@dublincity.ie",
               "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1164",
@@ -342,7 +342,7 @@ window.COUNCILLOR_DATA = {
           "councillors": [
             {
               "name": "Feljin Jose",
-              "party": "Green Party",
+              "party": "Green Party-Comhaontas Glas",
               "focus": "",
               "email": "feljin.jose@dublincity.ie",
               "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1168",
@@ -511,7 +511,7 @@ window.COUNCILLOR_DATA = {
             },
             {
               "name": "Donna Cooney",
-              "party": "Green Party",
+              "party": "Green Party-Comhaontas Glas",
               "focus": "",
               "email": "donna.cooney@dublincity.ie",
               "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=836",
@@ -813,7 +813,7 @@ window.COUNCILLOR_DATA = {
             },
             {
               "name": "Carolyn Moore",
-              "party": "Green Party",
+              "party": "Green Party-Comhaontas Glas",
               "focus": "",
               "email": "carolyn.moore@dublincity.ie",
               "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=937",
@@ -895,7 +895,7 @@ window.COUNCILLOR_DATA = {
             },
             {
               "name": "Janet Horner",
-              "party": "Green Party",
+              "party": "Green Party-Comhaontas Glas",
               "focus": "Transport, active travel, public realm, renters",
               "email": "janet.horner@dublincity.ie",
               "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=856",
@@ -1013,7 +1013,7 @@ window.COUNCILLOR_DATA = {
             },
             {
               "name": "Hazel Chu",
-              "party": "Green Party",
+              "party": "Green Party-Comhaontas Glas",
               "focus": "",
               "email": "hazel.chu@dublincity.ie",
               "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=827",
@@ -1093,7 +1093,7 @@ window.COUNCILLOR_DATA = {
           "councillors": [
             {
               "name": "Claire Byrne",
-              "party": "Green Party",
+              "party": "Green Party-Comhaontas Glas",
               "focus": "",
               "email": "claire.byrne@dublincity.ie",
               "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=135",
@@ -1272,7 +1272,7 @@ window.COUNCILLOR_DATA = {
             },
             {
               "name": "Michael Pidgeon",
-              "party": "Green Party",
+              "party": "Green Party-Comhaontas Glas",
               "focus": "",
               "email": "michael.pidgeon@dublincity.ie",
               "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=845",
