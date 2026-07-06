@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en-IE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Get it fixed — email the councillor whose job it is</title>
+<meta name="description" content="The broken light, the dangerous junction, the derelict site — someone is paid to fix it. Find your Dublin councillors and send a properly framed email in two minutes. Free, nothing stored.">
+<style>
+  /* Colour-blind-safe: single blue accent (Okabe–Ito), warm neutrals, no red/green axis. */
+  :root{
+    --paper:#f9f6ef; --ink:#26231b; --faint:#6f695c; --rule:#c9c2b2; --hairline:#ddd6c7;
+    --accent:#0f6296; --accent-ink:#f9f6ef; --mark:#0f6296; --field:#fffdf8; --edge:#8f8878;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --paper:#16150f; --ink:#e7e1d3; --faint:#9c9684; --rule:#45412f; --hairline:#38352a;
+      --accent:#6db3e0; --accent-ink:#10140f; --mark:#6db3e0; --field:#1d1c14; --edge:#6a6552;
+    }
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--paper);color:var(--ink);
+    font:17px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    padding:2.2rem 1.25rem 3rem;display:flex;justify-content:center}
+  main{width:100%;max-width:620px}
+  .serif{font-family:"Iowan Old Style",Palatino,"Palatino Linotype",Georgia,serif}
+  h1{font-family:"Iowan Old Style",Palatino,"Palatino Linotype",Georgia,serif;
+    font-size:2.5rem;line-height:1.08;letter-spacing:-.01em;font-weight:600;margin-bottom:.55rem}
+  .standfirst{font-family:"Iowan Old Style",Palatino,Georgia,serif;font-size:1.12rem;
+    line-height:1.5;color:var(--faint);max-width:34rem;margin-bottom:2.2rem}
+  .step{border-top:2px solid var(--rule);padding-top:.7rem;margin-top:2rem}
+  .step[hidden]{display:none}
+  .kicker{font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);margin-bottom:.15rem}
+  .q{font-family:"Iowan Old Style",Palatino,Georgia,serif;font-size:1.45rem;font-weight:600;margin-bottom:.9rem}
+  .chips{display:flex;flex-wrap:wrap;gap:.5rem}
+  .chip{font:inherit;font-size:.95rem;padding:.5rem .85rem;background:none;border:1.25px solid var(--edge);
+    border-radius:3px;color:var(--ink);cursor:pointer;text-align:left}
+  .chip:hover{background:var(--hairline)}
+  .chip[aria-pressed=true]{background:var(--ink);color:var(--paper)}
+  select,input[type=text]{width:100%;font:inherit;padding:.65rem .7rem;border:1.25px solid var(--edge);
+    border-radius:3px;background:var(--field);color:var(--ink)}
+  select:focus,input:focus{outline:2px solid var(--accent);outline-offset:1px}
+  .hint{font-size:.85rem;color:var(--faint);margin-top:.5rem}
+  .hint a{color:inherit}
+  .flabel{display:block;font-size:.8rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;
+    color:var(--faint);margin:1.1rem 0 .3rem}
+  .orderline{font-size:.9rem;font-style:italic;font-family:"Iowan Old Style",Palatino,Georgia,serif;
+    color:var(--faint);margin-bottom:.7rem}
+  .person{display:flex;gap:.75rem;align-items:flex-start;padding:.8rem 0;border-bottom:1px solid var(--hairline);cursor:pointer}
+  .person input{margin-top:.4rem;accent-color:var(--accent)}
+  .person .who{flex:1}
+  .person .nm{font-family:"Iowan Old Style",Palatino,Georgia,serif;font-size:1.12rem;font-weight:600}
+  .person .meta{font-size:.88rem;color:var(--faint)}
+  .person .reason{font-size:.88rem;margin-top:.15rem}
+  .person .links{font-size:.83rem;margin-top:.2rem}
+  .person .links a{color:var(--accent);text-decoration:none}
+  .person .links a:hover{text-decoration:underline}
+  .person.start{border-left:4px solid var(--mark);padding-left:.75rem;margin-left:-1rem}
+  .starttag{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--mark);margin-left:.5rem;vertical-align:2px}
+  .letter{background:var(--field);border:1.25px solid var(--edge);border-radius:3px;padding:1.1rem 1.2rem;margin-top:.9rem;
+    font-family:"Iowan Old Style",Palatino,Georgia,serif;font-size:1rem;line-height:1.55;white-space:pre-wrap}
+  .letter .hdr{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    font-size:.83rem;color:var(--faint);display:block;border-bottom:1px solid var(--hairline);
+    padding-bottom:.6rem;margin-bottom:.8rem;white-space:pre-wrap}
+  .actions{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1rem}
+  .send{display:inline-block;background:var(--accent);color:var(--accent-ink);font-weight:650;
+    padding:.75rem 1.3rem;border-radius:3px;text-decoration:none;border:1.5px solid var(--accent)}
+  .send[aria-disabled=true]{opacity:.4;pointer-events:none}
+  .ghost{font:inherit;font-weight:600;background:none;border:1.25px solid var(--edge);color:var(--ink);
+    padding:.7rem 1.1rem;border-radius:3px;cursor:pointer}
+  .aside{font-size:.88rem;color:var(--faint);margin-top:.9rem;line-height:1.5}
+  .next{margin:.2rem 0 1.1rem 1.2rem;display:flex;flex-direction:column;gap:.55rem;font-size:.95rem}
+  .next a{color:var(--accent)}
+  .caveat{font-size:.85rem;border:1px solid var(--hairline);border-left:4px solid var(--faint);
+    padding:.6rem .8rem;margin-top:1.2rem;color:var(--faint)}
+  .caveat a{color:inherit}
+  footer{border-top:2px solid var(--rule);margin-top:2.6rem;padding-top:.8rem;font-size:.78rem;
+    color:var(--faint);line-height:1.6}
+  footer a{color:var(--faint)}
+</style>
+</head>
+<body>
+<main>
+  <p class="kicker">Dublin, Ireland · find and email your local councillor · free</p>
+  <h1>Get it fixed.</h1>
+  <p class="standfirst">The light that's been out for months. The junction everyone fears.
+  The derelict site on your street. Your local councillor is elected — and paid — to act
+  on exactly this. Two minutes here finds yours and writes the email.
+  Dublin City &amp; Dún Laoghaire–Rathdown for now.</p>
+
+  <!-- STEP 1 · the problem -->
+  <section class="step" id="s1">
+    <p class="kicker">Step one</p>
+    <h2 class="q">What's the problem?</h2>
+    <div class="chips" id="chips" role="group" aria-label="Type of problem"></div>
+  </section>
+
+  <!-- STEP 2 · the place -->
+  <section class="step" id="s2" hidden>
+    <p class="kicker">Step two</p>
+    <h2 class="q">Where are you?</h2>
+    <select id="area" aria-label="Your local electoral area"><option value="">Choose your area…</option></select>
+    <p class="hint">Dublin is split into named electoral areas, each with 5–7 councillors.
+    Not sure which is yours? Pick your best guess — or search
+    "<span id="hint-council">your council</span> find your local electoral area".</p>
+  </section>
+
+  <!-- STEP 3 · the people + the letter -->
+  <section class="step" id="s3" hidden>
+    <p class="kicker">Step three</p>
+    <h2 class="q">Email the right person.</h2>
+
+    <label class="flabel" for="what">The problem, in one sentence</label>
+    <input type="text" id="what" placeholder="The pedestrian light at the school crossing has been out for three weeks" autocomplete="off">
+    <label class="flabel" for="where">Where exactly</label>
+    <input type="text" id="where" placeholder="Junction of Main Street and Chapel Road" autocomplete="off">
+    <label class="flabel" for="yourname">Your name</label>
+    <input type="text" id="yourname" placeholder="Signs the letter" autocomplete="name">
+
+    <p class="aside" id="signpost-note" hidden>Councils don't run health or benefit services
+    (that's the HSE and the Department of Social Protection) — but councillors deal with this
+    every week and know the local doors. For entitlements, <a href="https://www.citizensinformation.ie"
+    target="_blank" rel="noopener">citizensinformation.ie</a> is the best first stop.</p>
+
+    <label class="flabel">Your councillors</label>
+    <p class="orderline" id="orderline"></p>
+    <div id="people"></div>
+    <p class="aside">The guide's rule: email your best match first, and copy one councillor
+    from a different party — two doors beat one.</p>
+
+    <div class="letter" id="letter"><span class="hdr" id="letterhdr"></span><span id="letterbody"></span></div>
+    <div class="actions">
+      <a class="send" id="send" href="#" aria-disabled="true">Open in your email app</a>
+      <button class="ghost" id="copy" type="button">Copy the letter</button>
+    </div>
+    <p class="aside">It asks for a <strong>representation</strong> — the phrase that puts your
+    issue on the council's record with a paper trail. Attach a photo before sending if you
+    have one. Follow up politely after two weeks.</p>
+    <p class="caveat" id="caveat"></p>
+  </section>
+
+  <!-- STEP 4 · what happens next -->
+  <section class="step" id="s4" hidden>
+    <p class="kicker">Step four</p>
+    <h2 class="q">What happens after you send</h2>
+    <ol class="next">
+      <li><strong>This week.</strong> A reply usually comes within days — answering residents
+        is the job. If they act, say thanks: thanked constituents get helped again.</li>
+      <li><strong>Two weeks, no reply?</strong> Send the follow-up below. Most people never
+        follow up — which is exactly why following up works.</li>
+      <li><strong>A month, still stuck?</strong> Email a second councillor from a different
+        party (pick one from your list above) with the same letter, adding one line:
+        "I first raised this with Councillor [name] on [date]."</li>
+      <li><strong>Check the record, not the promises.</strong> Whatever happens next is
+        public — <a id="recordlink" href="#" target="_blank" rel="noopener">the council's
+        meeting pages</a> show what was actually raised.</li>
+    </ol>
+    <div class="letter" id="fu-letter"><span class="hdr" id="fu-hdr"></span><span id="fu-body"></span></div>
+    <div class="actions">
+      <button class="ghost" id="fu-copy" type="button">Copy the follow-up</button>
+      <a class="ghost" id="remind" href="#" download="councillor-follow-up.ics" style="text-decoration:none">Remind me in two weeks</a>
+    </div>
+    <p class="aside">The reminder is a small calendar file — it opens in your own calendar app.
+    Nothing is stored here and nobody will contact you.</p>
+  </section>
+
+  <footer id="attribution"></footer>
+</main>
+
+<script src="data/councillors.js"></script>
+<script>
+(function(){
+  'use strict';
+  var DATA = window.COUNCILLOR_DATA;
+  if(!DATA){ document.body.innerHTML = '<main><h1>Data missing</h1><p>data/councillors.js was not found next to this page.</p></main>'; return; }
+
+  // Problem types → focus keywords (the guide's issue→focus mapping) + plain labels.
+  var ISSUES = [
+    {id:'roads',    label:'A dangerous road, junction or crossing', kw:['transport','active travel','road','cycling','public realm','mobility'], committee:'area committee'},
+    {id:'housing',  label:'Housing, landlord or tenancy trouble',   kw:['housing','tenant','renters','anti-eviction'], committee:'area committee'},
+    {id:'planning', label:'Planning or development next door',      kw:['planning','development','infrastructure','business'], committee:'area committee'},
+    {id:'derelict', label:'A derelict or vacant building',          kw:['derelict','planning','development','neighbourhood','regeneration'], committee:'area committee'},
+    {id:'parks',    label:'A park, playground or library',          kw:['community','amenities','parks','public realm','arts','culture'], committee:'area committee'},
+    {id:'footpath', label:'Broken footpaths or lighting',           kw:['infrastructure','public realm','community','services'], committee:'area committee'},
+    {id:'services', label:'Bins, cleaning, a failed council service', kw:['services','community','public services','litter','waste'], committee:'area committee'},
+    {id:'asb',      label:'Anti-social behaviour or safety',        kw:['community','safety','anti-social','welfare','policing'], committee:'joint policing committee'},
+    {id:'money',    label:'Money worries — rent, bills, benefits',  kw:['welfare','community','housing','homeless','social'], signpost:'the right local supports around money, rent arrears or benefits'},
+    {id:'health',   label:'Addiction or mental health — help nearby', kw:['addiction','homeless','welfare','community services','wellbeing','safety','health','hse'], signpost:'local supports around addiction or mental health, for me or someone close'},
+    {id:'support',  label:'A hard patch — not sure where to start', kw:['homeless','addiction','welfare','community services','wellbeing','safety'], signpost:'the right local supports'}
+  ];
+
+  var el = function(id){ return document.getElementById(id); };
+  var state = { issue:null, council:null, lea:null, chosen:null };
+
+  // Step 1 — chips
+  var chipsWrap = el('chips');
+  ISSUES.forEach(function(it){
+    var b = document.createElement('button');
+    b.type = 'button'; b.className = 'chip'; b.textContent = it.label;
+    b.setAttribute('aria-pressed','false');
+    b.addEventListener('click', function(){
+      state.issue = it;
+      chipsWrap.querySelectorAll('.chip').forEach(function(c){ c.setAttribute('aria-pressed', String(c===b)); });
+      render();
+      if (el('s2').hidden === false && !state.lea) el('area').focus();
+    });
+    chipsWrap.appendChild(b);
+  });
+
+  // Step 2 — one combined area picker, grouped by council
+  var areaSel = el('area');
+  DATA.councils.forEach(function(c, ci){
+    var g = document.createElement('optgroup'); g.label = c.name;
+    c.leas.forEach(function(l, li){
+      var o = document.createElement('option');
+      o.value = ci + ':' + li; o.textContent = l.name;
+      g.appendChild(o);
+    });
+    areaSel.appendChild(g);
+  });
+  areaSel.addEventListener('change', function(){
+    if(this.value === ''){ state.council = state.lea = null; render(); return; }
+    var p = this.value.split(':');
+    state.council = DATA.councils[+p[0]];
+    state.lea = state.council.leas[+p[1]];
+    state.chosen = null;
+    el('hint-council').textContent = state.council.name;
+    render();
+  });
+
+  ['what','where','yourname'].forEach(function(id){ el(id).addEventListener('input', renderLetter); });
+
+  function matchedCommittees(c, kw){
+    return (c.committees || []).filter(function(cm){
+      var l = cm.toLowerCase();
+      return kw.some(function(k){ return l.indexOf(k) >= 0; });
+    });
+  }
+
+  function ranked(){
+    if(!state.lea) return [];
+    var kw = state.issue ? state.issue.kw : [];
+    var scored = state.lea.councillors.map(function(c){
+      var hay = ((c.focus||'') + ' ' + (c.committees||[]).join(' ')).toLowerCase();
+      var score = kw.reduce(function(s,k){ return s + (hay.indexOf(k) >= 0 ? 1 : 0); }, 0);
+      return {c:c, score:score};
+    });
+    scored.sort(function(a,b){ return b.score - a.score; });
+    var anyFocus = scored.some(function(s){ return s.score > 0; });
+    return scored.map(function(s,i){ return {c:s.c, start: anyFocus && i === 0 && s.score > 0}; });
+  }
+
+  function renderPeople(){
+    var wrap = el('people'); wrap.innerHTML = '';
+    var list = ranked();
+    if(!list.length) return;
+    if(!state.chosen || !list.some(function(r){ return r.c.name === state.chosen; })){
+      state.chosen = list[0].c.name;
+    }
+    var anyFocus = list.some(function(r){ return (r.c.focus||'') !== '' || (r.c.committees||[]).length; });
+    el('orderline').textContent = anyFocus
+      ? 'Ordered for “' + state.issue.label.toLowerCase() + '” by their public committee seats and focus — change the problem above and the order changes.'
+      : 'No public committee data for this area yet, so they’re unranked — any of them can raise it.';
+    el('signpost-note').hidden = !state.issue.signpost;
+    list.forEach(function(r){
+      var row = document.createElement('label');
+      row.className = 'person' + (r.start ? ' start' : '');
+      var radio = document.createElement('input');
+      radio.type = 'radio'; radio.name = 'person'; radio.checked = r.c.name === state.chosen;
+      radio.addEventListener('change', function(){ state.chosen = r.c.name; renderPeople(); renderLetter(); });
+      var who = document.createElement('div'); who.className = 'who';
+      var nm = document.createElement('div'); nm.className = 'nm'; nm.textContent = r.c.name;
+      if(r.start){ var t = document.createElement('span'); t.className = 'starttag'; t.textContent = 'start here'; nm.appendChild(t); }
+      var meta = document.createElement('div'); meta.className = 'meta'; meta.textContent = r.c.party || '';
+      who.appendChild(nm); who.appendChild(meta);
+      if(r.c.focus){
+        var why = document.createElement('div'); why.className = 'reason';
+        why.textContent = 'Public record: ' + r.c.focus.toLowerCase();
+        who.appendChild(why);
+      }
+      if((r.c.committees||[]).length){
+        var kw = state.issue ? state.issue.kw : [];
+        var hits = matchedCommittees(r.c, kw);
+        var show = (hits.length ? hits : r.c.committees).slice(0, 3);
+        var cm = document.createElement('div'); cm.className = 'reason';
+        cm.textContent = (hits.length ? 'Sits on (relevant): ' : 'Sits on: ') + show.join(' · ');
+        who.appendChild(cm);
+      }
+      var links = document.createElement('div'); links.className = 'links';
+      if(r.c.profile_url){
+        var a = document.createElement('a'); a.href = r.c.profile_url; a.target = '_blank'; a.rel = 'noopener';
+        a.textContent = 'official profile'; links.appendChild(a);
+      }
+      if(r.c.record_url){
+        if(links.childNodes.length) links.appendChild(document.createTextNode('  ·  '));
+        var a2 = document.createElement('a'); a2.href = r.c.record_url; a2.target = '_blank'; a2.rel = 'noopener';
+        a2.textContent = 'their record — attendance & minutes'; links.appendChild(a2);
+      }
+      if(links.childNodes.length) who.appendChild(links);
+      row.appendChild(radio); row.appendChild(who);
+      wrap.appendChild(row);
+    });
+    el('caveat').innerHTML = 'Councillors change party, resign, or get co-opted between elections — verify the current list on <a href="'
+      + (state.council.list_url || '#') + '" target="_blank" rel="noopener">the council’s official site</a>. Data retrieved '
+      + (DATA.generated || '') + '.';
+  }
+
+  function buildEmail(){
+    var list = ranked();
+    var hit = list.filter(function(r){ return r.c.name === state.chosen; })[0];
+    if(!hit || !state.issue) return null;
+    var c = hit.c;
+    var what = el('what').value.trim(), where = el('where').value.trim(), name = el('yourname').value.trim();
+    var surname = c.name.split(' ').slice(-1)[0];
+    var subject, body;
+    if(state.issue.signpost){
+      subject = 'Looking for the right local support';
+      body = 'Dear Councillor ' + surname + ',\n\n'
+        + (what ? what + '\n\n' : '')
+        + 'I’m trying to find ' + state.issue.signpost + ' and I’m not sure who the right person or service is'
+        + (where ? ' (I’m near ' + where + ')' : '') + '. Could you point me in the right direction? Who should I talk to?\n\n'
+        + 'Thank you,\n' + (name || '[your name]');
+    } else {
+      subject = (what || 'A local issue') + (where ? ' at ' + where : '') + ' — request to raise a representation';
+      body = 'Dear Councillor ' + surname + ',\n\n'
+        + 'I’m a resident of ' + state.lea.name + ' writing about a specific local issue.\n\n'
+        + (what || '[the problem, in one sentence]') + '\n'
+        + 'Location: ' + (where || '[the exact location]') + '\n\n'
+        + 'I can send a photo and map pin if useful.\n\n'
+        + 'Could you raise a representation with the relevant council official'
+        + (state.issue.committee ? ', or table it as a notice of motion at the next ' + state.issue.committee : '')
+        + '? I’d be grateful for the reference so I can follow up.\n\n'
+        + 'Thank you for your time.\n\nKind regards,\n' + (name || '[your name]');
+    }
+    return { to: c.email || '', subject: subject, body: body, c: c };
+  }
+
+  function renderLetter(){
+    var em = buildEmail();
+    if(!em) return;
+    el('letterhdr').textContent = 'To:      ' + (em.to || '(no published email — use the contact details on their official profile)')
+      + '\nSubject: ' + em.subject;
+    el('letterbody').textContent = em.body;
+    var send = el('send');
+    if(em.to){
+      send.href = 'mailto:' + encodeURIComponent(em.to) + '?subject=' + encodeURIComponent(em.subject) + '&body=' + encodeURIComponent(em.body);
+      send.removeAttribute('aria-disabled');
+    } else {
+      send.href = '#'; send.setAttribute('aria-disabled','true');
+    }
+    renderFollowUp(em);
+  }
+
+  function buildFollowUp(em){
+    var name = el('yourname').value.trim();
+    var surname = em.c.name.split(' ').slice(-1)[0];
+    var body = 'Dear Councillor ' + surname + ',\n\n'
+      + 'Two weeks ago I wrote to you about this issue and haven’t heard back — I appreciate you get a lot of these.\n\n'
+      + 'Could you let me know whether a representation has been raised, and the reference if so? Happy to provide anything further that would help.\n\n'
+      + 'Kind regards,\n' + (name || '[your name]');
+    return { to: em.to, subject: 'Re: ' + em.subject, body: body };
+  }
+
+  function renderFollowUp(em){
+    var fu = buildFollowUp(em);
+    el('fu-hdr').textContent = 'To:      ' + (fu.to || '(same councillor)') + '\nSubject: ' + fu.subject;
+    el('fu-body').textContent = fu.body;
+    var rl = el('recordlink');
+    rl.href = em.c.record_url || (state.council && state.council.meetings_url) || '#';
+    el('remind').href = buildIcs(em, fu);
+  }
+
+  function buildIcs(em, fu){
+    var d = new Date(); d.setDate(d.getDate() + 14);
+    var ymd = d.toISOString().slice(0,10).replace(/-/g,'');
+    var esc = function(s){ return s.replace(/\\/g,'\\\\').replace(/;/g,'\\;').replace(/,/g,'\\,').replace(/\n/g,'\\n'); };
+    var ics = ['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//councillor-tool//EN','BEGIN:VEVENT',
+      'UID:' + ymd + '-' + Math.floor(Math.random()*1e9) + '@councillor-tool',
+      'DTSTART;VALUE=DATE:' + ymd,
+      'SUMMARY:' + esc('Follow up with Cllr ' + em.c.name + (el('what').value.trim() ? ' — ' + el('what').value.trim() : '')),
+      'DESCRIPTION:' + esc('No reply yet? Send this:\n\nTo: ' + fu.to + '\nSubject: ' + fu.subject + '\n\n' + fu.body),
+      'END:VEVENT','END:VCALENDAR'].join('\r\n');
+    return 'data:text/calendar;charset=utf-8,' + encodeURIComponent(ics);
+  }
+
+  function render(){
+    el('s2').hidden = !state.issue;
+    el('s3').hidden = !(state.issue && state.lea);
+    el('s4').hidden = !(state.issue && state.lea);
+    if(state.issue && state.lea){ renderPeople(); renderLetter(); }
+  }
+
+  el('copy').addEventListener('click', function(){
+    var em = buildEmail(); if(!em) return;
+    var txt = 'To: ' + em.to + '\nSubject: ' + em.subject + '\n\n' + em.body;
+    var b = this;
+    if(navigator.clipboard){ navigator.clipboard.writeText(txt).then(function(){
+      b.textContent = 'Copied'; setTimeout(function(){ b.textContent = 'Copy the letter'; }, 1500);
+    }); }
+  });
+
+  el('fu-copy').addEventListener('click', function(){
+    var em = buildEmail(); if(!em) return;
+    var fu = buildFollowUp(em);
+    var txt = 'To: ' + fu.to + '\nSubject: ' + fu.subject + '\n\n' + fu.body;
+    var b = this;
+    if(navigator.clipboard){ navigator.clipboard.writeText(txt).then(function(){
+      b.textContent = 'Copied'; setTimeout(function(){ b.textContent = 'Copy the follow-up'; }, 1500);
+    }); }
+  });
+
+  el('attribution').innerHTML =
+    'Free community tool. No accounts, no tracking — nothing you type leaves this page; the email opens in your own mail app and you send it yourself. '
+    + 'Councillor data from official council websites and <a href="https://data.gov.ie" target="_blank" rel="noopener">data.gov.ie</a> open datasets'
+    + (DATA.generated ? ' (retrieved ' + DATA.generated + ')' : '') + '. ' + (DATA.attribution || '')
+    + ' Companion to the guide <em>Get Your Local Councillor to Act</em>. '
+    + 'Spotted a wrong name, a dead link, or have an idea? '
+    + '<a href="https://github.com/KarlDoyle/councillor-tool/issues" target="_blank" rel="noopener">Tell me — feedback welcome</a>.';
+})();
+</script>
+</body>
+</html>

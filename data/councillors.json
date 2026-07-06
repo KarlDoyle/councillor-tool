@@ -1,0 +1,1812 @@
+{
+  "generated": "2026-07-06",
+  "attribution": "Contains Irish Public Sector Data (Dublin City Council; Dún Laoghaire–Rathdown County Council) licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) licence.",
+  "councils": [
+    {
+      "id": "dcc",
+      "name": "Dublin City Council",
+      "list_url": "https://councilmeetings.dublincity.ie/mgMemberIndex.aspx?bcr=1",
+      "meetings_url": "https://councilmeetings.dublincity.ie/",
+      "leas": [
+        {
+          "name": "Artane-Whitehall",
+          "councillors": [
+            {
+              "name": "Racheal Batten",
+              "party": "Fianna Fáil",
+              "focus": "",
+              "email": "racheal.batten@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=824",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=824",
+              "committees": [
+                "Corporate Policy Group",
+                "Economic Development and Enterprise SPC (Chairperson)",
+                "North Central Area Committee",
+                "Planning Workshop",
+                "Urban Redevelopment Working Goup",
+                "Womens Committee"
+              ],
+              "area_committee": "North Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Declan Flanagan",
+              "party": "Fine Gael",
+              "focus": "",
+              "email": "declan.flanagan@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=144",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=144",
+              "committees": [
+                "City of Dublin Education and Training Board",
+                "Climate Action and Urban Resilience SPC (Chairperson)",
+                "Corporate Policy Group",
+                "Eastern and Midlands Regional Assembly",
+                "North Central Area Committee (Vice-Chair)",
+                "Planning Workshop"
+              ],
+              "area_committee": "North Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Jesslyn Henry",
+              "party": "Social Democrats",
+              "focus": "",
+              "email": "jesslyn.henry@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1161",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1161",
+              "committees": [
+                "City of Dublin Education and Training Board",
+                "Commemorations & Naming Committee",
+                "Economic Development and Enterprise SPC",
+                "North Central Area Committee",
+                "Planning Workshop",
+                "Womens Committee"
+              ],
+              "area_committee": "North Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "John Lyons",
+              "party": "Non-Party",
+              "focus": "",
+              "email": "john.lyons@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=159",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=159",
+              "committees": [
+                "Animal Welfare Oversight Committee",
+                "Community, Gaeilge, Sport, Arts & Culture SPC",
+                "Inter Local Authority Special Committee On Fire & Ambulance Services and Emergency Management",
+                "Local Travellers Accommodation Consultative Committee",
+                "North Central Area Committee",
+                "Planning Workshop"
+              ],
+              "area_committee": "North Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Edel Moran",
+              "party": "Sinn Féin",
+              "focus": "",
+              "email": "edel.moran@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=197",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=197",
+              "committees": [
+                "Climate Action and Urban Resilience SPC",
+                "HSE Dublin and Northeast Region",
+                "North Central Area Committee",
+                "Planning Workshop",
+                "Womens Committee"
+              ],
+              "area_committee": "North Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Aishling Silke",
+              "party": "Non-Party",
+              "focus": "",
+              "email": "aishling.silke@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1162",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1162",
+              "committees": [
+                "North Central Area Committee"
+              ],
+              "area_committee": "North Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            }
+          ]
+        },
+        {
+          "name": "Ballyfermot-Drimnagh",
+          "councillors": [
+            {
+              "name": "Ray Cunningham",
+              "party": "Green Party",
+              "focus": "",
+              "email": "ray.cunningham@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1163",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1163",
+              "committees": [
+                "Commemorations & Naming Committee",
+                "Economic Development and Enterprise SPC",
+                "Housing and Social Inclusion SPC",
+                "Local Travellers Accommodation Consultative Committee",
+                "Planning Workshop",
+                "Protocol Committee",
+                "South Central Area Committee"
+              ],
+              "area_committee": "South Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Daithí Doolan",
+              "party": "Sinn Féin",
+              "focus": "",
+              "email": "daithi.doolan@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=120",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=120",
+              "committees": [
+                "Group Leaders",
+                "Housing and Social Inclusion SPC",
+                "Inter Local Authority Special Committee On Fire & Ambulance Services and Emergency Management",
+                "Planning Workshop",
+                "South Central Area Committee"
+              ],
+              "area_committee": "South Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Vincent Jackson",
+              "party": "Non-Party",
+              "focus": "",
+              "email": "vincent.jackson@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=153",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=153",
+              "committees": [
+                "City of Dublin Education and Training Board",
+                "Commemorations & Naming Committee",
+                "Community, Gaeilge, Sport, Arts & Culture SPC",
+                "HSE Dublin and Midlands Region",
+                "Local Community Development Committee",
+                "Planning Workshop",
+                "South Central Area Committee (Chairperson)"
+              ],
+              "area_committee": "South Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Hazel de Nortúin",
+              "party": "People Before Profit",
+              "focus": "",
+              "email": "hazel.denortuin@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=200",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=200",
+              "committees": [
+                "Animal Welfare Oversight Committee",
+                "Artists Workspace Sub-Committee",
+                "Arts and Culture Advisory Group",
+                "City of Dublin Education and Training Board",
+                "Community, Gaeilge, Sport, Arts & Culture SPC",
+                "Inter Local Authority Special Committee On Fire & Ambulance Services and Emergency Management",
+                "Irish Language Sub-Committee",
+                "Local Travellers Accommodation Consultative Committee",
+                "Planning Workshop",
+                "South Central Area Committee",
+                "Womens Committee"
+              ],
+              "area_committee": "South Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Philip Sutcliffe",
+              "party": "Non-Party",
+              "focus": "",
+              "email": "philip.sutcliffe@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1164",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1164",
+              "committees": [
+                "Finance SPC",
+                "Planning Workshop",
+                "South Central Area Committee"
+              ],
+              "area_committee": "South Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            }
+          ]
+        },
+        {
+          "name": "Ballymun-Finglas",
+          "councillors": [
+            {
+              "name": "Mary Callaghan",
+              "party": "Social Democrats",
+              "focus": "",
+              "email": "mary.callaghan@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=826",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=826",
+              "committees": [
+                "Housing and Social Inclusion SPC",
+                "North West Area Committee",
+                "Planning Workshop",
+                "Womens Committee"
+              ],
+              "area_committee": "Noth West Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Anthony Connaghan",
+              "party": "Sinn Féin",
+              "focus": "",
+              "email": "anthony.connaghan@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=138",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=138",
+              "committees": [
+                "Local Travellers Accommodation Consultative Committee",
+                "Mobility and Public Realm SPC",
+                "North West Area Committee",
+                "Planning Workshop",
+                "Protocol Committee"
+              ],
+              "area_committee": "Noth West Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Keith Connolly",
+              "party": "Fianna Fáil",
+              "focus": "",
+              "email": "keith.connolly@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=828",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=828",
+              "committees": [
+                "City of Dublin Education and Training Board",
+                "Mobility and Public Realm SPC",
+                "North West Area Committee (Chairperson)",
+                "Planning Workshop"
+              ],
+              "area_committee": "Noth West Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Leslie Kane",
+              "party": "Sinn Féin",
+              "focus": "",
+              "email": "leslie.kane@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1165",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1165",
+              "committees": [
+                "Economic Development and Enterprise SPC",
+                "North West Area Committee",
+                "Planning Workshop",
+                "Womens Committee"
+              ],
+              "area_committee": "Noth West Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Gavin Pepper",
+              "party": "Non-Party",
+              "focus": "",
+              "email": "gavin.pepper@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1166",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1166",
+              "committees": [
+                "North West Area Committee",
+                "Planning and Urban Regeneration SPC",
+                "Planning Workshop"
+              ],
+              "area_committee": "Noth West Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Conor Reddy",
+              "party": "People Before Profit",
+              "focus": "",
+              "email": "conor.reddy@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1167",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1167",
+              "committees": [
+                "Commemorations & Naming Committee",
+                "Group Leaders",
+                "Housing and Social Inclusion SPC",
+                "Local Community Development Committee",
+                "North West Area Committee",
+                "Planning Workshop",
+                "Protocol Committee",
+                "Sports Implementation Plan Sub-Committee",
+                "Urban Redevelopment Working Group"
+              ],
+              "area_committee": "Noth West Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            }
+          ]
+        },
+        {
+          "name": "Cabra-Glasnevin",
+          "councillors": [
+            {
+              "name": "Feljin Jose",
+              "party": "Green Party",
+              "focus": "",
+              "email": "feljin.jose@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1168",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1168",
+              "committees": [
+                "Central Area Committee",
+                "Eastern and Midlands Regional Assembly",
+                "Mobility and Public Realm SPC",
+                "Planning and Urban Regeneration SPC",
+                "Planning Workshop",
+                "Protocol Committee"
+              ],
+              "area_committee": "Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Séamas McGrattan",
+              "party": "Sinn Féin",
+              "focus": "",
+              "email": "seamas.mcgrattan@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=165",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=165",
+              "committees": [
+                "Central Area Committee",
+                "Community, Gaeilge, Sport, Arts & Culture SPC",
+                "Corporate Policy Group",
+                "Dublin City Sports and Wellbeing Partnership Board",
+                "Finance SPC (Chairperson)",
+                "Planning Workshop",
+                "Sports Implementation Plan Sub-Committee",
+                "Urban Redevelopment Working Group"
+              ],
+              "area_committee": "Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Cat O'Driscoll",
+              "party": "Social Democrats",
+              "focus": "",
+              "email": "cat.odriscoll@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=939",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=939",
+              "committees": [
+                "Artists Workspace Sub-Committee",
+                "Arts and Culture Advisory Group",
+                "Central Area Committee",
+                "City of Dublin Education and Training Board",
+                "Community, Gaeilge, Sport, Arts & Culture SPC",
+                "Dublin City Sports and Wellbeing Partnership Board",
+                "HSE Dublin and Northeast Region",
+                "Library",
+                "Planning Workshop",
+                "Protocol Committee",
+                "Womens Committee"
+              ],
+              "area_committee": "Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Colm O'Rourke",
+              "party": "Fine Gael",
+              "focus": "",
+              "email": "colm.orourke@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=834",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=834",
+              "committees": [
+                "Central Area Committee",
+                "City of Dublin Education and Training Board",
+                "Economic Development and Enterprise SPC",
+                "Group Leaders",
+                "Housing and Social Inclusion SPC",
+                "Planning Workshop"
+              ],
+              "area_committee": "Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Cieran Perry",
+              "party": "Non-Party",
+              "focus": "",
+              "email": "cieran.perry@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=179",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=179",
+              "committees": [
+                "Animal Welfare Oversight Committee",
+                "Central Area Committee",
+                "Commemorations & Naming Committee",
+                "Group Leaders",
+                "Housing and Social Inclusion SPC",
+                "Planning Workshop",
+                "Urban Redevelopment Working Group"
+              ],
+              "area_committee": "Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Gayle Ralph",
+              "party": "Fine Gael",
+              "focus": "",
+              "email": "gayle.ralph@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1169",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1169",
+              "committees": [
+                "Central Area Committee",
+                "City of Dublin Education and Training Board",
+                "Commemorations & Naming Committee",
+                "Economic Development and Enterprise SPC",
+                "HSE Dublin and Northeast Region",
+                "Inter Local Authority Special Committee On Fire & Ambulance Services and Emergency Management",
+                "Planning Workshop",
+                "Womens Committee"
+              ],
+              "area_committee": "Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "John Stephens",
+              "party": "Fianna Fáil",
+              "focus": "",
+              "email": "john.stephens@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1170",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1170",
+              "committees": [
+                "Central Area Committee",
+                "Finance SPC",
+                "Housing and Social Inclusion SPC",
+                "HSE Dublin and Northeast Region",
+                "Inter Local Authority Special Committee On Fire & Ambulance Services and Emergency Management",
+                "Local Community Development Committee",
+                "Planning Workshop"
+              ],
+              "area_committee": "Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            }
+          ]
+        },
+        {
+          "name": "Clontarf",
+          "councillors": [
+            {
+              "name": "Kevin Breen",
+              "party": "Non-Party",
+              "focus": "",
+              "email": "kevin.breen@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1238",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1238",
+              "committees": [
+                "Climate Action and Urban Resilience SPC",
+                "Community, Gaeilge, Sport, Arts & Culture SPC",
+                "North Bull Island Oversight Forum",
+                "North Central Area Committee",
+                "Planning Workshop",
+                "Protocol Committee",
+                "Sports Implementation Plan Sub-Committee"
+              ],
+              "area_committee": "North Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Donna Cooney",
+              "party": "Green Party",
+              "focus": "",
+              "email": "donna.cooney@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=836",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=836",
+              "committees": [
+                "Animal Welfare Oversight Committee",
+                "Artists Workspace Sub-Committee",
+                "Arts and Culture Advisory Group",
+                "City of Dublin Education and Training Board",
+                "Commemorations & Naming Committee",
+                "Community, Gaeilge, Sport, Arts & Culture SPC",
+                "Housing and Social Inclusion SPC",
+                "HSE Dublin and Northeast Region",
+                "Inter Local Authority Special Committee On Fire & Ambulance Services and Emergency Management",
+                "North Bull Island Oversight Forum",
+                "North Central Area Committee",
+                "Planning Workshop",
+                "Sports Implementation Plan Sub-Committee",
+                "Womens Committee"
+              ],
+              "area_committee": "North Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Alison Field",
+              "party": "The Labour Party",
+              "focus": "",
+              "email": "alison.field@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1171",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1171",
+              "committees": [
+                "Housing and Social Inclusion SPC",
+                "Inter Local Authority Special Committee On Fire & Ambulance Services and Emergency Management",
+                "North Bull Island Oversight Forum",
+                "North Central Area Committee",
+                "Planning Workshop",
+                "Urban Redevelopment Working Goup",
+                "Womens Committee"
+              ],
+              "area_committee": "North Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Deirdre Heney",
+              "party": "Fianna Fáil",
+              "focus": "",
+              "email": "deirdre.heney@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=151",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=151",
+              "committees": [
+                "Animal Welfare Oversight Committee (Chairperson)",
+                "Commemorations & Naming Committee",
+                "Corporate Policy Group",
+                "Eastern and Midlands Regional Assembly",
+                "Housing and Social Inclusion SPC (Chairperson)",
+                "HSE Dublin and Northeast Region",
+                "Irish Language Sub-Committee",
+                "North Bull Island Oversight Forum",
+                "North Central Area Committee",
+                "Planning Workshop",
+                "Protocol Committee (Chairperson)",
+                "Womens Committee"
+              ],
+              "area_committee": "North Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Clodagh Ní Mhuirí",
+              "party": "Fine Gael",
+              "focus": "",
+              "email": "clodagh.nimhuiri@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1244",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1244",
+              "committees": [
+                "Animal Welfare Oversight Committee",
+                "Climate Action and Urban Resilience SPC",
+                "Commemorations & Naming Committee",
+                "Housing and Social Inclusion SPC",
+                "Irish Language Sub-Committee",
+                "Library",
+                "North Bull Island Oversight Forum",
+                "North Central Area Committee",
+                "Planning Workshop",
+                "Protocol Committee",
+                "Womens Committee"
+              ],
+              "area_committee": "North Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Karl Stanley",
+              "party": "Social Democrats",
+              "focus": "",
+              "email": null,
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1105",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1105",
+              "committees": [
+                "Finance SPC",
+                "Group Leaders",
+                "Inter Local Authority Special Committee On Fire & Ambulance Services and Emergency Management",
+                "Mobility and Public Realm SPC",
+                "North Bull Island Oversight Forum",
+                "North Central Area Committee",
+                "Planning Workshop",
+                "Protocol Committee"
+              ],
+              "area_committee": null,
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            }
+          ]
+        },
+        {
+          "name": "Donaghmede",
+          "councillors": [
+            {
+              "name": "Daryl Barron",
+              "party": "Fianna Fáil",
+              "focus": "",
+              "email": "daryl.barron@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=823",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=823",
+              "committees": [
+                "Audit Committee",
+                "Finance SPC",
+                "Group Leaders",
+                "Housing and Social Inclusion SPC",
+                "Inter Local Authority Special Committee On Fire & Ambulance Services and Emergency Management",
+                "North Central Area Committee",
+                "Planning Workshop",
+                "Protocol Committee"
+              ],
+              "area_committee": "North Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Micheál MacDonncha",
+              "party": "Sinn Féin",
+              "focus": "",
+              "email": "michael.macdonncha@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=160",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=160",
+              "committees": [
+                "City of Dublin Education and Training Board",
+                "Commemorations & Naming Committee",
+                "Community, Gaeilge, Sport, Arts & Culture SPC",
+                "Eastern and Midlands Regional Assembly",
+                "Irish Language Sub-Committee",
+                "Mobility and Public Realm SPC",
+                "North Central Area Committee",
+                "Planning Workshop",
+                "Protocol Committee"
+              ],
+              "area_committee": "North Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Aoibheann Mahon",
+              "party": "Fianna Fáil",
+              "focus": "",
+              "email": "aoibheann.mahon@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1242",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1242",
+              "committees": [
+                "Climate Action and Urban Resilience SPC",
+                "Eastern and Midlands Regional Assembly",
+                "North Central Area Committee",
+                "Planning and Urban Regeneration SPC",
+                "Planning Workshop",
+                "Womens Committee"
+              ],
+              "area_committee": "North Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Paddy Monahan",
+              "party": "Social Democrats",
+              "focus": "",
+              "email": "paddy.monahan@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1173",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1173",
+              "committees": [
+                "Mobility and Public Realm SPC",
+                "North Central Area Committee",
+                "Planning Workshop"
+              ],
+              "area_committee": "North Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Supriya Singh",
+              "party": "Fine Gael",
+              "focus": "",
+              "email": "supriya.singh@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1174",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1174",
+              "committees": [
+                "Community, Gaeilge, Sport, Arts & Culture SPC",
+                "HSE Dublin and Northeast Region",
+                "Local Community Development Committee",
+                "North Central Area Committee",
+                "Planning Workshop",
+                "Womens Committee"
+              ],
+              "area_committee": "North Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            }
+          ]
+        },
+        {
+          "name": "Kimmage-Rathmines",
+          "councillors": [
+            {
+              "name": "Noelle Brown",
+              "party": "Social Democrats",
+              "focus": "",
+              "email": "tara.deacy@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1264",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1264",
+              "committees": [
+                "Artists Workspace Sub-Committee",
+                "Arts and Culture Advisory Group",
+                "Community, Gaeilge, Sport, Arts & Culture SPC",
+                "Library",
+                "Planning Workshop",
+                "South East Area Committee",
+                "Womens Committee"
+              ],
+              "area_committee": "South East Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Fiona Connelly",
+              "party": "The Labour Party",
+              "focus": "",
+              "email": "fiona.connelly@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1116",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1116",
+              "committees": [
+                "Community, Gaeilge, Sport, Arts & Culture SPC",
+                "Eastern and Midlands Regional Assembly",
+                "Group Leaders",
+                "Irish Language Sub-Committee",
+                "Library",
+                "Mobility and Public Realm SPC",
+                "Planning Workshop",
+                "Protocol Committee",
+                "South East Area Committee (Vice-Chair)",
+                "Sports Implementation Plan Sub-Committee",
+                "Womens Committee"
+              ],
+              "area_committee": "South East Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Pat Dunne",
+              "party": "Independents4Change",
+              "focus": "",
+              "email": "pat.dunne1@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=142",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=142",
+              "committees": [
+                "Housing and Social Inclusion SPC",
+                "Planning Workshop",
+                "South East Area Committee"
+              ],
+              "area_committee": "South East Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Patrick Kinsella",
+              "party": "Fine Gael",
+              "focus": "",
+              "email": "patrick.kinsella@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1185",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1185",
+              "committees": [
+                "Community, Gaeilge, Sport, Arts & Culture SPC",
+                "Planning and Urban Regeneration SPC",
+                "Planning Workshop",
+                "South East Area Committee",
+                "Sports Implementation Plan Sub-Committee"
+              ],
+              "area_committee": "South East Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Carolyn Moore",
+              "party": "Green Party",
+              "focus": "",
+              "email": "carolyn.moore@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=937",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=937",
+              "committees": [
+                "Climate Action and Urban Resilience SPC",
+                "Community, Gaeilge, Sport, Arts & Culture SPC",
+                "Corporate Policy Group",
+                "Library",
+                "Litter and Waste Sub-Committee",
+                "Local Community Development Committee",
+                "Planning Workshop",
+                "South East Area Committee",
+                "Womens Committee"
+              ],
+              "area_committee": "South East Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Punam Rane",
+              "party": "Fine Gael",
+              "focus": "",
+              "email": "punam.rane@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1184",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1184",
+              "committees": [
+                "Economic Development and Enterprise SPC",
+                "Finance SPC",
+                "Planning Workshop",
+                "Protocol Committee",
+                "South East Area Committee",
+                "Womens Committee"
+              ],
+              "area_committee": "South East Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            }
+          ]
+        },
+        {
+          "name": "North Inner City",
+          "councillors": [
+            {
+              "name": "Janice Boylan",
+              "party": "Sinn Féin",
+              "focus": "Housing, tenant issues, community welfare",
+              "email": "janice.boylan@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=132",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=132",
+              "committees": [
+                "Animal Welfare Oversight Committee",
+                "Central Area Committee",
+                "Climate Action and Urban Resilience SPC",
+                "Housing and Social Inclusion SPC",
+                "Planning Workshop",
+                "Womens Committee"
+              ],
+              "area_committee": "Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Christy Burke",
+              "party": "Non-Party",
+              "focus": "Homelessness, addiction, community services",
+              "email": "christy.burke@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=134",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=134",
+              "committees": [
+                "Central Area Committee",
+                "Housing and Social Inclusion SPC",
+                "HSE Dublin and Northeast Region",
+                "Planning Workshop"
+              ],
+              "area_committee": "Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Janet Horner",
+              "party": "Green Party",
+              "focus": "Transport, active travel, public realm, renters",
+              "email": "janet.horner@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=856",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=856",
+              "committees": [
+                "Central Area Committee",
+                "Corporate Policy Group",
+                "Group Leaders",
+                "Litter and Waste Sub-Committee",
+                "Mobility and Public Realm SPC (Chairperson)",
+                "Planning Workshop",
+                "Womens Committee"
+              ],
+              "area_committee": "Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Ray McAdam",
+              "party": "Fine Gael",
+              "focus": "Business, planning, infrastructure",
+              "email": "ray.mcadam@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=162",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=162",
+              "committees": [
+                "Central Area Committee",
+                "Corporate Policy Group",
+                "Group Leaders",
+                "Housing and Social Inclusion SPC",
+                "Litter and Waste Sub-Committee",
+                "Mobility and Public Realm SPC",
+                "Planning Workshop",
+                "Urban Redevelopment Working Group"
+              ],
+              "area_committee": "Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Ellen O'Doherty",
+              "party": "Social Democrats",
+              "focus": "Community safety, community services, arts & culture (committee seats)",
+              "email": null,
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1392",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1392",
+              "committees": [
+                "Central Area Committee",
+                "Community, Gaeilge, Sport, Arts & Culture SPC",
+                "Dublin Central Local Community Safety Partnership",
+                "Womens Committee"
+              ],
+              "area_committee": null,
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Nial Ring",
+              "party": "Non-Party",
+              "focus": "Local heritage, long-serving north-inner-city voice",
+              "email": "nial.ring@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=180",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=180",
+              "committees": [
+                "Audit Committee",
+                "Central Area Committee",
+                "Commemorations & Naming Committee",
+                "Economic Development and Enterprise SPC",
+                "Finance SPC",
+                "Irish Language Sub-Committee",
+                "Planning Workshop"
+              ],
+              "area_committee": "Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Malachy Steenson",
+              "party": "Non-Party",
+              "focus": "Public services",
+              "email": "malachy.steenson@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1180",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1180",
+              "committees": [
+                "Central Area Committee",
+                "Finance SPC",
+                "Group Leaders",
+                "Planning Workshop"
+              ],
+              "area_committee": "Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            }
+          ]
+        },
+        {
+          "name": "Pembroke",
+          "councillors": [
+            {
+              "name": "Emma Blain",
+              "party": "Fine Gael",
+              "focus": "",
+              "email": "emma.blain@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1181",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1181",
+              "committees": [
+                "HSE Dublin and Midlands Region",
+                "Mobility and Public Realm SPC",
+                "Planning Workshop",
+                "South East Area Committee",
+                "Womens Committee"
+              ],
+              "area_committee": "South East Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Hazel Chu",
+              "party": "Green Party",
+              "focus": "",
+              "email": "hazel.chu@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=827",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=827",
+              "committees": [
+                "Housing and Social Inclusion SPC",
+                "Litter and Waste Sub-Committee",
+                "Mobility and Public Realm SPC",
+                "Planning Workshop",
+                "South East Area Committee",
+                "Womens Committee"
+              ],
+              "area_committee": "South East Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "David Coffey",
+              "party": "Fine Gael",
+              "focus": "",
+              "email": "david.coffey@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1237",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1237",
+              "committees": [
+                "Audit Committee",
+                "Planning and Urban Regeneration SPC",
+                "Planning Workshop",
+                "South East Area Committee"
+              ],
+              "area_committee": "South East Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Rory Hogan",
+              "party": "Fianna Fáil",
+              "focus": "",
+              "email": "rory.hogan@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1182",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1182",
+              "committees": [
+                "City of Dublin Education and Training Board",
+                "Climate Action and Urban Resilience SPC",
+                "Economic Development and Enterprise SPC",
+                "Planning Workshop",
+                "South East Area Committee"
+              ],
+              "area_committee": "South East Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Dermot Lacey",
+              "party": "The Labour Party",
+              "focus": "",
+              "email": "dermot.lacey@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=158",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=158",
+              "committees": [
+                "City of Dublin Education and Training Board",
+                "Commemorations & Naming Committee",
+                "Finance SPC",
+                "HSE Dublin and South East Region",
+                "Planning and Urban Regeneration SPC",
+                "Planning Workshop",
+                "Protocol Committee",
+                "South East Area Committee (Chairperson)"
+              ],
+              "area_committee": "South East Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            }
+          ]
+        },
+        {
+          "name": "South East Inner City",
+          "councillors": [
+            {
+              "name": "Claire Byrne",
+              "party": "Green Party",
+              "focus": "",
+              "email": "claire.byrne@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=135",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=135",
+              "committees": [
+                "Climate Action and Urban Resilience SPC",
+                "Planning Workshop",
+                "South East Area Committee",
+                "Womens Committee"
+              ],
+              "area_committee": "South East Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Danny Byrne",
+              "party": "Fine Gael",
+              "focus": "",
+              "email": "danny.byrne@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=825",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=825",
+              "committees": [
+                "Eastern and Midlands Regional Assembly",
+                "Finance SPC",
+                "Inter Local Authority Special Committee On Fire & Ambulance Services and Emergency Management",
+                "Planning Workshop",
+                "Protocol Committee",
+                "South East Area Committee"
+              ],
+              "area_committee": "South East Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Cian Farrell",
+              "party": "Social Democrats",
+              "focus": "",
+              "email": "cian.farrell@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1178",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1178",
+              "committees": [
+                "Corporate Policy Group",
+                "Planning and Urban Regeneration SPC (Chairperson)",
+                "Planning Workshop",
+                "South East Area Committee",
+                "Urban Redevelopment Working Goup"
+              ],
+              "area_committee": "South East Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Mannix Flynn",
+              "party": "Non-Party",
+              "focus": "",
+              "email": "mannix.flynn@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=145",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=145",
+              "committees": [
+                "Commemorations & Naming Committee",
+                "Economic Development and Enterprise SPC",
+                "Mobility and Public Realm SPC",
+                "Planning Workshop",
+                "Protocol Committee",
+                "South East Area Committee"
+              ],
+              "area_committee": "South East Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Kourtney Kenny",
+              "party": "Sinn Féin",
+              "focus": "",
+              "email": "kourtney.kenny@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1179",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1179",
+              "committees": [
+                "Animal Welfare Oversight Committee",
+                "Finance SPC",
+                "Planning Workshop",
+                "South East Area Committee",
+                "Womens Committee"
+              ],
+              "area_committee": "South East Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            }
+          ]
+        },
+        {
+          "name": "South West Inner City",
+          "councillors": [
+            {
+              "name": "Ammar Ali",
+              "party": "Fianna Fáil",
+              "focus": "",
+              "email": "ammar.ali@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1176",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1176",
+              "committees": [
+                "Artists Workspace Sub-Committee",
+                "Arts and Culture Advisory Group",
+                "Community, Gaeilge, Sport, Arts & Culture SPC",
+                "HSE Dublin and Midlands Region",
+                "Planning and Urban Regeneration SPC",
+                "Planning Workshop",
+                "South Central Area Committee",
+                "Sports Implementation Plan Sub-Committee"
+              ],
+              "area_committee": "South Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Lesley Byrne",
+              "party": "Social Democrats",
+              "focus": "",
+              "email": "lesley.byrne@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1240",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1240",
+              "committees": [
+                "Climate Action and Urban Resilience SPC",
+                "HSE Dublin and Midlands Region",
+                "Litter and Waste Sub-Committee",
+                "Local Travellers Accommodation Consultative Committee",
+                "Planning and Urban Regeneration SPC",
+                "Planning Workshop",
+                "South Central Area Committee",
+                "Womens Committee"
+              ],
+              "area_committee": "South Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Ciaran Ó Meachair",
+              "party": "Sinn Féin",
+              "focus": "",
+              "email": "Ciaran.omeachair@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1239",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1239",
+              "committees": [
+                "Commemorations & Naming Committee",
+                "Dublin South Central Local Community Safety Partnership",
+                "HSE Dublin and Midlands Region",
+                "Irish Language Sub-Committee",
+                "Library",
+                "Planning and Urban Regeneration SPC",
+                "Planning Workshop",
+                "South Central Area Committee"
+              ],
+              "area_committee": "South Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Darragh Moriarty",
+              "party": "The Labour Party",
+              "focus": "",
+              "email": "darragh.moriarty@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=950",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=950",
+              "committees": [
+                "Artists Workspace Sub-Committee",
+                "Arts and Culture Advisory Group",
+                "Community, Gaeilge, Sport, Arts & Culture SPC",
+                "Corporate Policy Group",
+                "Library",
+                "Planning Workshop",
+                "South Central Area Committee"
+              ],
+              "area_committee": "South Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Michael Pidgeon",
+              "party": "Green Party",
+              "focus": "",
+              "email": "michael.pidgeon@dublincity.ie",
+              "profile_url": "https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=845",
+              "record_url": "https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=845",
+              "committees": [
+                "Finance SPC",
+                "Planning Workshop",
+                "South Central Area Committee",
+                "Urban Redevelopment Working Group"
+              ],
+              "area_committee": "South Central Area Committee",
+              "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
+              "retrieved": "2026-07-06"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dlr",
+      "name": "Dún Laoghaire–Rathdown County Council",
+      "list_url": "https://www.dlrcoco.ie/council-democracy/dlr-councillors",
+      "meetings_url": "https://www.dlrcoco.ie/council-democracy/council-meetings",
+      "leas": [
+        {
+          "name": "Blackrock",
+          "councillors": [
+            {
+              "name": "Marie Baker",
+              "party": "Fine Gael",
+              "focus": "",
+              "email": "mbaker@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Dan Carson",
+              "party": "Fine Gael",
+              "focus": "",
+              "email": "dcarson@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Michael Clark",
+              "party": "Fianna Fáil",
+              "focus": "",
+              "email": "mclark@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Maurice Dockrell",
+              "party": "Fine Gael",
+              "focus": "",
+              "email": "mdockrell@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Conor Dowling",
+              "party": "Green Party",
+              "focus": "",
+              "email": "cdowling@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Martha Fanning",
+              "party": "Labour",
+              "focus": "",
+              "email": "mfanning@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            }
+          ]
+        },
+        {
+          "name": "Dundrum",
+          "councillors": [
+            {
+              "name": "Anne Colgan",
+              "party": "Independent",
+              "focus": "",
+              "email": "acolgan@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Anna Grainger",
+              "party": "Fine Gael",
+              "focus": "",
+              "email": "agrainger@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Robert Jones",
+              "party": "Green Party",
+              "focus": "",
+              "email": "rjones@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Sean McLoughlin",
+              "party": "Independent",
+              "focus": "",
+              "email": "smcloughlin@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Fiona Murray",
+              "party": "Fianna Fáil",
+              "focus": "",
+              "email": "fmurray@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Peter O'Brien",
+              "party": "Labour",
+              "focus": "",
+              "email": "pobrien@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Jim O'Leary",
+              "party": "Fine Gael",
+              "focus": "",
+              "email": "joleary@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            }
+          ]
+        },
+        {
+          "name": "Dún Laoghaire",
+          "councillors": [
+            {
+              "name": "JP Durkan",
+              "party": "Fine Gael",
+              "focus": "",
+              "email": "jpdurkan@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Mary Fayne",
+              "party": "Fine Gael",
+              "focus": "",
+              "email": "mfayne@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Lorraine Hall",
+              "party": "Fine Gael",
+              "focus": "",
+              "email": "lhall@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Melissa Halpin",
+              "party": "People Before Profit",
+              "focus": "",
+              "email": "mhalpin@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Thomas Joseph",
+              "party": "Labour",
+              "focus": "",
+              "email": "tjoseph@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Tom Kivlehan",
+              "party": "Green Party",
+              "focus": "",
+              "email": "tkivlehan@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Justin Moylan",
+              "party": "Fianna Fáil",
+              "focus": "",
+              "email": "jmoylan@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            }
+          ]
+        },
+        {
+          "name": "Glencullen-Sandyford",
+          "councillors": [
+            {
+              "name": "Kazi Ahmed",
+              "party": "Fine Gael",
+              "focus": "",
+              "email": "kahmed@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Kevin Daly",
+              "party": "Independent",
+              "focus": "",
+              "email": "kdaly@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Pierce Dargan",
+              "party": "Fine Gael",
+              "focus": "",
+              "email": "pdargan@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Michael Fleming",
+              "party": "Independent",
+              "focus": "",
+              "email": "mfleming@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Lettie McCarthy",
+              "party": "Labour",
+              "focus": "",
+              "email": "lmccarthy@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Tom Murphy",
+              "party": "Fianna Fáil",
+              "focus": "",
+              "email": "tmurphy@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Oisín O'Connor",
+              "party": "Green Party",
+              "focus": "",
+              "email": "ooconnor@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            }
+          ]
+        },
+        {
+          "name": "Killiney-Shankill",
+          "councillors": [
+            {
+              "name": "Jacqueline Burke",
+              "party": "Fine Gael",
+              "focus": "Local community issues",
+              "email": "jburke@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Jim Gildea",
+              "party": "Fine Gael",
+              "focus": "Local infrastructure, community",
+              "email": "jgildea@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Hugh Lewis",
+              "party": "Independent",
+              "focus": "Public services, housing, anti-eviction",
+              "email": "hlewis@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Frank McNamara",
+              "party": "Fine Gael",
+              "focus": "Local development, services",
+              "email": "fmcnamara@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Dave O'Keeffe",
+              "party": "People Before Profit",
+              "focus": "Public services, housing, workers' issues",
+              "email": "dokeeffe@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Carrie Smyth",
+              "party": "Labour",
+              "focus": "Community services, local amenities",
+              "email": "carriesmyth@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Lauren Tuite",
+              "party": "Green Party",
+              "focus": "Sustainability, transport, public realm",
+              "email": "ltuite@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            }
+          ]
+        },
+        {
+          "name": "Stillorgan",
+          "councillors": [
+            {
+              "name": "Liam Dockery",
+              "party": "Fianna Fáil",
+              "focus": "",
+              "email": "ldockery@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Eva Dowling",
+              "party": "Green Party",
+              "focus": "",
+              "email": "edowling@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "John Hurley",
+              "party": "Social Democrat",
+              "focus": "",
+              "email": "jhurley@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "John Kennedy",
+              "party": "Fine Gael",
+              "focus": "",
+              "email": "jkennedy@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Eoin O'Driscoll",
+              "party": "Fine Gael",
+              "focus": "",
+              "email": "eodriscoll@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            },
+            {
+              "name": "Barry Saul",
+              "party": "Fine Gael",
+              "focus": "",
+              "email": "bsaul@cllr.dlrcoco.ie",
+              "profile_url": null,
+              "record_url": null,
+              "committees": [],
+              "area_committee": null,
+              "source": "dlrcoco.ie/council-democracy/dlr-councillors",
+              "retrieved": "2026-07-06"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

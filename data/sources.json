@@ -1,0 +1,36 @@
+{
+  "_note": "Datasets the monthly refresh (scripts/refresh.mjs) re-fetches. DLR has no working machine-readable councillor dataset (the smartdublin 'Councillor Details DLR' package is access-restricted as of 2026-07-06), so DLR rows are link-validated only and refreshed from last-good; the dlrcoco.ie directory page is the human verify-path. The LEA boundary dataset is referenced for a possible future map version — not fetched by the tool today.",
+  "datasets": [
+    {
+      "council_id": "dcc",
+      "type": "elected-members",
+      "url": "https://data.smartdublin.ie/dataset/3b96f6f0-3873-4ea9-94a2-646bbd3db113/resource/95e8a95c-4d48-4164-9fb1-e02fc8026893/download/councillor_details_dcc.csv",
+      "format": "csv",
+      "fields": {
+        "name": "name",
+        "party": "party",
+        "email": "email"
+      },
+      "licence": "CC-BY 4.0",
+      "dataset_page": "https://data.gov.ie/dataset/councillor-detail-dcc",
+      "last_seen_updated": "2025-04-23",
+      "retrieved": "2026-07-06",
+      "encoding": "windows-1252"
+    }
+  ],
+  "reference_only": [
+    {
+      "title": "Local Electoral Areas - National Statutory Boundaries - Ungeneralised - 2024 (Tailte Éireann)",
+      "geojson": "https://data-osi.opendata.arcgis.com/api/download/v1/items/ae400849382b43b6804cb979891a32ff/geojson?layers=1",
+      "page": "https://data-osi.opendata.arcgis.com/datasets/osi::local-electoral-areas-national-statutory-boundaries-ungeneralised-2024",
+      "note": "A 2026 vintage also exists (item 95c1445f2d31416a9a16a2fdeafac97d). Licence field not shown via CKAN API — confirm on the ArcGIS Hub page before shipping a map version.",
+      "retrieved": "2026-07-06"
+    },
+    {
+      "title": "Local Electoral Areas DLR (2019-vintage boundaries, CC-BY 4.0)",
+      "geojson": "https://data.smartdublin.ie/dataset/2bb82c5b-55bf-4b53-b802-a217b97cfb6b/resource/fae341f0-0be2-4492-a9ea-3c0d571c1500/download/dlr_lea_2019.geojson",
+      "page": "https://data.gov.ie/dataset/local-electoral-areas",
+      "retrieved": "2026-07-06"
+    }
+  ]
+}

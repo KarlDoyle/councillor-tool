@@ -1,0 +1,100 @@
+# Monthly self-maintenance loop — councillor contact tool. LIVE since 2026-07-06.
+# Runs scripts/refresh.mjs monthly: refresh data from open datasets, validate every
+# official link, keep last-good on any failure, rebuild, redeploy Pages, and post
+# the self-report as an issue comment. Free tier; GITHUB_TOKEN only. See ops/README.md.
+name: monthly-refresh
+on:
+  schedule:
+    - cron: '17 6 3 * *'   # 06:17 on the 3rd of each month
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+concurrency:
+  group: monthly-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Refresh data + validate links
+        id: refresh
+        run: node scripts/refresh.mjs
+
+      - name: Commit refreshed data (if changed)
+        run: |
+          git config user.name "councillor-tool-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ ops/refresh-report.md
+          git diff --cached --quiet || git commit -m "monthly refresh: ${{ steps.refresh.outputs.rows_refreshed }} rows, ${{ steps.refresh.outputs.dead_links }} dead links"
+          git push
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
+
+      - name: Post monthly self-report
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('ops/refresh-report.md', 'utf8');
+            const actionNeeded = '${{ steps.refresh.outputs.action_needed }}' === 'true';
+            const title = 'Monthly self-report — councillor tool';
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo, state: 'all',
+              creator: 'app/github-actions', per_page: 100,
+            });
+            let issue = issues.find(i => i.title === title);
+            if (!issue) {
+              ({ data: issue } = await github.rest.issues.create({
+                owner: context.repo.owner, repo: context.repo.repo,
+                title, body: 'Standing issue for the monthly self-maintenance report. Each run comments below.',
+              }));
+            }
+            await github.rest.issues.createComment({
+              owner: context.repo.owner, repo: context.repo.repo,
+              issue_number: issue.number, body,
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner, repo: context.repo.repo,
+              issue_number: issue.number, state: actionNeeded ? 'open' : 'closed',
+            });
+
+  # Degradation backstop: if the whole job errors (not just soft failures the
+  # script already absorbs), the last deployed site stays up — Pages keeps
+  # serving the previous artifact — and this opens a loud issue.
+  on-failure:
+    runs-on: ubuntu-latest
+    needs: refresh-and-deploy
+    if: failure()
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.create({
+              owner: context.repo.owner, repo: context.repo.repo,
+              title: `Monthly refresh FAILED — ${new Date().toISOString().slice(0,10)}`,
+              body: `The monthly-refresh workflow errored. The site keeps serving last-good data; no user impact. See the run: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`,
+            });
