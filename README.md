@@ -25,6 +25,18 @@ and [data.gov.ie](https://data.gov.ie) open datasets. Councillors change party,
 resign, or get co-opted between elections — always verify against the council's
 official site (linked throughout).
 
+## Share links — for councillors, residents' groups and PPNs
+
+You can link people straight to their patch: `?a=<area>` preselects the area, and
+`&c=<councillor>` preselects a person. Examples:
+
+- `https://karldoyle.github.io/councillor-tool/?a=north-inner-city`
+- `https://karldoyle.github.io/councillor-tool/?a=killiney-shankill&c=carrie-smyth`
+
+Area names are lowercased with dashes (`dun-laoghaire`, `south-east-inner-city`).
+Councillors: put your own link on your page or leaflet — residents arrive one step
+from a well-framed, on-the-record email to you. No tracking on any of it.
+
 ## Feedback
 
 Wrong name, dead link, your council missing, an idea?

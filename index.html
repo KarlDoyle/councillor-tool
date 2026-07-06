@@ -123,6 +123,9 @@
     <p class="hint">Dublin is split into named electoral areas, each with 5–7 councillors.
     Not sure which is yours? Pick your best guess — or search
     "<span id="hint-council">your council</span> find your local electoral area".</p>
+    <div class="actions" id="share-wrap" hidden>
+      <button class="ghost" id="share-area" type="button">Copy a link to this area</button>
+    </div>
   </section>
 
   <!-- STEP 3 · the people + the letter -->
@@ -246,6 +249,32 @@
     state.chosen = null;
     el('hint-council').textContent = state.council.name;
     render();
+  });
+
+  // Shareable deep links: ?a=<area-slug> preselects the area; &c=<uid or name-slug>
+  // preselects a councillor — so a councillor (or a local group) can hand out a link
+  // that lands residents one step from a well-framed email. No tracking, just params.
+  function slug(s){ return s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,''); }
+  function applyParams(){
+    var q = new URLSearchParams(location.search);
+    var a = q.get('a'); if(!a) return;
+    DATA.councils.forEach(function(co, ci){ co.leas.forEach(function(l, li){
+      if(slug(l.name) === a){ areaSel.value = ci + ':' + li; state.council = co; state.lea = l; el('hint-council').textContent = co.name; }
+    }); });
+    var c = q.get('c');
+    if(c && state.lea){ state.lea.councillors.forEach(function(x){
+      var uid = (x.profile_url || '').split('UID=')[1];
+      if(uid === c || slug(x.name) === c) state.chosen = x.name;
+    }); }
+    render();
+  }
+  el('share-area').addEventListener('click', function(){
+    if(!state.lea) return;
+    var url = location.origin + location.pathname + '?a=' + slug(state.lea.name);
+    var b = this;
+    if(navigator.clipboard){ navigator.clipboard.writeText(url).then(function(){
+      b.textContent = 'Link copied'; setTimeout(function(){ b.textContent = 'Copy a link to this area'; }, 1500);
+    }); }
   });
 
   ['what','where','yourname'].forEach(function(id){ el(id).addEventListener('input', renderLetter); });
@@ -410,6 +439,7 @@
     el('s2').hidden = !state.issue;
     el('s3').hidden = !(state.issue && state.lea);
     el('s4').hidden = !(state.issue && state.lea);
+    el('share-wrap').hidden = !state.lea;
     if(state.issue && state.lea){ renderPeople(); renderLetter(); }
   }
 
@@ -431,6 +461,8 @@
       b.textContent = 'Copied'; setTimeout(function(){ b.textContent = 'Copy the follow-up'; }, 1500);
     }); }
   });
+
+  applyParams();
 
   el('attribution').innerHTML =
     'Free community tool. No accounts, no tracking — nothing you type leaves this page; the email opens in your own mail app and you send it yourself. '
