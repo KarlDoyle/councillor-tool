@@ -3,13 +3,31 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Get it fixed — email the councillor whose job it is</title>
-<meta name="description" content="The broken light, the dangerous junction, the derelict site — someone is paid to fix it. Find your Dublin councillors and send a properly framed email in two minutes. Free, nothing stored.">
+<title>Get it fixed — find and email your Dublin councillor | free tool</title>
+<meta name="description" content="Broken light, dangerous junction, derelict site? Find your Dublin councillors (Dublin City &amp; Dún Laoghaire–Rathdown), ranked by their public committee seats, and send a properly framed email in two minutes. Free, no accounts, nothing stored.">
+<link rel="canonical" href="https://karldoyle.github.io/councillor-tool/">
+<meta name="theme-color" content="#f9f6ef" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16150f" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Get it fixed — find and email your Dublin councillor">
+<meta property="og:description" content="Pick the problem, pick your area, email the right councillor — properly framed, on the record. Free, no accounts, nothing stored.">
+<meta property="og:url" content="https://karldoyle.github.io/councillor-tool/">
+<meta property="og:locale" content="en_IE">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication",
+ "name":"Get it fixed — Dublin councillor contact tool",
+ "url":"https://karldoyle.github.io/councillor-tool/",
+ "applicationCategory":"Civic tool","operatingSystem":"Any (web)",
+ "offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"},
+ "areaServed":["Dublin City Council","Dún Laoghaire–Rathdown County Council"],
+ "description":"Find your Dublin councillors, ranked by public committee seats, and send a properly framed email about a local problem. No accounts, no tracking."}
+</script>
 <style>
   /* Colour-blind-safe: single blue accent (Okabe–Ito), warm neutrals, no red/green axis. */
   :root{
-    --paper:#f9f6ef; --ink:#26231b; --faint:#6f695c; --rule:#c9c2b2; --hairline:#ddd6c7;
-    --accent:#0f6296; --accent-ink:#f9f6ef; --mark:#0f6296; --field:#fffdf8; --edge:#8f8878;
+    --paper:#f9f6ef; --ink:#26231b; --faint:#615b4e; --rule:#c9c2b2; --hairline:#ddd6c7;
+    --accent:#0d5a8a; --accent-ink:#f9f6ef; --mark:#0d5a8a; --field:#fffdf8; --edge:#8f8878;
   }
   @media (prefers-color-scheme: dark){
     :root{
@@ -39,6 +57,8 @@
   select,input[type=text]{width:100%;font:inherit;padding:.65rem .7rem;border:1.25px solid var(--edge);
     border-radius:3px;background:var(--field);color:var(--ink)}
   select:focus,input:focus{outline:2px solid var(--accent);outline-offset:1px}
+  .chip:focus-visible,.ghost:focus-visible,.send:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .person:focus-within{outline:2px solid var(--accent);outline-offset:2px}
   .hint{font-size:.85rem;color:var(--faint);margin-top:.5rem}
   .hint a{color:inherit}
   .flabel{display:block;font-size:.8rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;
@@ -122,9 +142,9 @@
     every week and know the local doors. For entitlements, <a href="https://www.citizensinformation.ie"
     target="_blank" rel="noopener">citizensinformation.ie</a> is the best first stop.</p>
 
-    <label class="flabel">Your councillors</label>
-    <p class="orderline" id="orderline"></p>
-    <div id="people"></div>
+    <label class="flabel" id="people-label">Your councillors</label>
+    <p class="orderline" id="orderline" aria-live="polite"></p>
+    <div id="people" role="radiogroup" aria-labelledby="people-label"></div>
     <p class="aside">The guide's rule: email your best match first, and copy one councillor
     from a different party — two doors beat one.</p>
 
