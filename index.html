@@ -310,6 +310,9 @@
       if(r.c.profile_url){
         var a = document.createElement('a'); a.href = r.c.profile_url; a.target = '_blank'; a.rel = 'noopener';
         a.textContent = 'official profile'; links.appendChild(a);
+      } else if(state.council.list_url){
+        var al = document.createElement('a'); al.href = state.council.list_url; al.target = '_blank'; al.rel = 'noopener';
+        al.textContent = 'official directory (no individual pages for this council)'; links.appendChild(al);
       }
       if(r.c.record_url){
         if(links.childNodes.length) links.appendChild(document.createTextNode('  ·  '));
