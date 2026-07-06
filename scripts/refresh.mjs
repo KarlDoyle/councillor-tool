@@ -27,7 +27,7 @@ let sources = [];
 try { sources = JSON.parse(readFileSync(join(ROOT, 'data/sources.json'), 'utf8')).datasets ?? []; }
 catch { /* no sources file → link-validation-only mode */ }
 
-const report = { refreshed: 0, deadLinks: [], datasetFailures: [], staleRows: [], notes: [] };
+const report = { refreshed: 0, deadLinks: [], blocked: [], datasetFailures: [], staleRows: [], notes: [] };
 
 async function fetchOk(url, asText = false, encoding = 'utf-8') {
   try {
@@ -105,9 +105,18 @@ for (const council of data.councils) {
     for (const k of ['profile_url', 'record_url'])
       if (c[k]) urls.set(c[k], [...(urls.get(c[k]) ?? []), `${c.name} ${k}`]);
 }
+// Dead = the resource is gone (404/410) or the domain no longer resolves. A 403/429/5xx
+// from a CI runner usually means the council site bot-blocks datacentre IPs (verified
+// 2026-07-06: councilmeetings.dublincity.ie 403s GitHub runners but serves browsers fine)
+// — report those as unverifiable, never as action-needed, or every month cries wolf.
+const HARD_DEAD = new Set([404, 410]);
 for (const [url, labels] of urls) {
   const res = await fetchOk(url);
-  if (!res.ok) report.deadLinks.push(`${url} → ${res.status} (${labels.join(', ')}) — kept last-good`);
+  if (res.ok) continue;
+  const gone = HARD_DEAD.has(res.status) ||
+    (typeof res.status === 'string' && /ENOTFOUND|EAI_AGAIN|certificate/i.test(res.status));
+  if (gone) report.deadLinks.push(`${url} → ${res.status} (${labels.join(', ')}) — kept last-good`);
+  else report.blocked.push(`${url} → ${res.status} (${labels.join(', ')}) — likely bot-blocking of CI IPs, fine in a browser`);
 }
 
 // ---- 4+5: write outputs ----------------------------------------------------
@@ -122,10 +131,12 @@ const md = [
   `# Monthly self-report — ${today}`, '',
   `- Rows refreshed from open datasets: **${report.refreshed}**`,
   `- Dead links: **${report.deadLinks.length}**`,
+  `- Unverifiable from CI (bot-blocked, fine in a browser): **${report.blocked.length}**`,
   `- Dataset failures: **${report.datasetFailures.length}**`,
   `- Rows kept last-good (not in refreshed dataset): **${report.staleRows.length}**`,
   `- **Action needed: ${actionNeeded ? 'yes — see below' : 'none'}**`, '',
   ...(report.deadLinks.length ? ['## Dead links', ...report.deadLinks.map(l => `- ${l}`), ''] : []),
+  ...(report.blocked.length ? ['## Unverifiable from CI', ...report.blocked.map(l => `- ${l}`), ''] : []),
   ...(report.datasetFailures.length ? ['## Dataset failures', ...report.datasetFailures.map(l => `- ${l}`), ''] : []),
   ...(report.staleRows.length ? ['## Kept last-good', ...report.staleRows.map(l => `- ${l}`), ''] : []),
   ...(report.notes.length ? ['## Changes applied', ...report.notes.map(l => `- ${l}`), ''] : []),
