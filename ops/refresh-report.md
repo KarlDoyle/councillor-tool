@@ -1,154 +1,143 @@
 # Monthly self-report — 2026-07-06
 
 - Rows refreshed from open datasets: **60**
-- Dead links: **127**
+- Dead links: **0**
+- Unverifiable from CI (bot-blocked, fine in a browser): **127**
 - Dataset failures: **0**
 - Rows kept last-good (not in refreshed dataset): **3**
-- **Action needed: yes — see below**
+- **Action needed: none**
 
-## Dead links
-- https://councilmeetings.dublincity.ie/mgMemberIndex.aspx?bcr=1 → 403 (Dublin City Council list page) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=824 → 403 (Racheal Batten profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=824 → 403 (Racheal Batten record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=144 → 403 (Declan Flanagan profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=144 → 403 (Declan Flanagan record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1161 → 403 (Jesslyn Henry profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1161 → 403 (Jesslyn Henry record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=159 → 403 (John Lyons profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=159 → 403 (John Lyons record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=197 → 403 (Edel Moran profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=197 → 403 (Edel Moran record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1162 → 403 (Aishling Silke profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1162 → 403 (Aishling Silke record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1163 → 403 (Ray Cunningham profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1163 → 403 (Ray Cunningham record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=120 → 403 (Daithí Doolan profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=120 → 403 (Daithí Doolan record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=153 → 403 (Vincent Jackson profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=153 → 403 (Vincent Jackson record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=200 → 403 (Hazel de Nortúin profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=200 → 403 (Hazel de Nortúin record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1164 → 403 (Philip Sutcliffe profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1164 → 403 (Philip Sutcliffe record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=826 → 403 (Mary Callaghan profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=826 → 403 (Mary Callaghan record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=138 → 403 (Anthony Connaghan profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=138 → 403 (Anthony Connaghan record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=828 → 403 (Keith Connolly profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=828 → 403 (Keith Connolly record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1165 → 403 (Leslie Kane profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1165 → 403 (Leslie Kane record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1166 → 403 (Gavin Pepper profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1166 → 403 (Gavin Pepper record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1167 → 403 (Conor Reddy profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1167 → 403 (Conor Reddy record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1168 → 403 (Feljin Jose profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1168 → 403 (Feljin Jose record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=165 → 403 (Séamas McGrattan profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=165 → 403 (Séamas McGrattan record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=939 → 403 (Cat O'Driscoll profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=939 → 403 (Cat O'Driscoll record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=834 → 403 (Colm O'Rourke profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=834 → 403 (Colm O'Rourke record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=179 → 403 (Cieran Perry profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=179 → 403 (Cieran Perry record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1169 → 403 (Gayle Ralph profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1169 → 403 (Gayle Ralph record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1170 → 403 (John Stephens profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1170 → 403 (John Stephens record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1238 → 403 (Kevin Breen profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1238 → 403 (Kevin Breen record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=836 → 403 (Donna Cooney profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=836 → 403 (Donna Cooney record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1171 → 403 (Alison Field profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1171 → 403 (Alison Field record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=151 → 403 (Deirdre Heney profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=151 → 403 (Deirdre Heney record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1244 → 403 (Clodagh Ní Mhuirí profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1244 → 403 (Clodagh Ní Mhuirí record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1105 → 403 (Karl Stanley profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1105 → 403 (Karl Stanley record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=823 → 403 (Daryl Barron profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=823 → 403 (Daryl Barron record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=160 → 403 (Micheál MacDonncha profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=160 → 403 (Micheál MacDonncha record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1242 → 403 (Aoibheann Mahon profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1242 → 403 (Aoibheann Mahon record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1173 → 403 (Paddy Monahan profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1173 → 403 (Paddy Monahan record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1174 → 403 (Supriya Singh profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1174 → 403 (Supriya Singh record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1264 → 403 (Noelle Brown profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1264 → 403 (Noelle Brown record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1116 → 403 (Fiona Connelly profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1116 → 403 (Fiona Connelly record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=142 → 403 (Pat Dunne profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=142 → 403 (Pat Dunne record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1185 → 403 (Patrick Kinsella profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1185 → 403 (Patrick Kinsella record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=937 → 403 (Carolyn Moore profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=937 → 403 (Carolyn Moore record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1184 → 403 (Punam Rane profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1184 → 403 (Punam Rane record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=132 → 403 (Janice Boylan profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=132 → 403 (Janice Boylan record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=134 → 403 (Christy Burke profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=134 → 403 (Christy Burke record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=856 → 403 (Janet Horner profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=856 → 403 (Janet Horner record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=162 → 403 (Ray McAdam profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=162 → 403 (Ray McAdam record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1392 → 403 (Ellen O'Doherty profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1392 → 403 (Ellen O'Doherty record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=180 → 403 (Nial Ring profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=180 → 403 (Nial Ring record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1180 → 403 (Malachy Steenson profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1180 → 403 (Malachy Steenson record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1181 → 403 (Emma Blain profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1181 → 403 (Emma Blain record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=827 → 403 (Hazel Chu profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=827 → 403 (Hazel Chu record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1237 → 403 (David Coffey profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1237 → 403 (David Coffey record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1182 → 403 (Rory Hogan profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1182 → 403 (Rory Hogan record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=158 → 403 (Dermot Lacey profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=158 → 403 (Dermot Lacey record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=135 → 403 (Claire Byrne profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=135 → 403 (Claire Byrne record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=825 → 403 (Danny Byrne profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=825 → 403 (Danny Byrne record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1178 → 403 (Cian Farrell profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1178 → 403 (Cian Farrell record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=145 → 403 (Mannix Flynn profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=145 → 403 (Mannix Flynn record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1179 → 403 (Kourtney Kenny profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1179 → 403 (Kourtney Kenny record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1176 → 403 (Ammar Ali profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1176 → 403 (Ammar Ali record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1240 → 403 (Lesley Byrne profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1240 → 403 (Lesley Byrne record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1239 → 403 (Ciaran Ó Meachair profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1239 → 403 (Ciaran Ó Meachair record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=950 → 403 (Darragh Moriarty profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=950 → 403 (Darragh Moriarty record_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=845 → 403 (Michael Pidgeon profile_url) — kept last-good
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=845 → 403 (Michael Pidgeon record_url) — kept last-good
+## Unverifiable from CI
+- https://councilmeetings.dublincity.ie/mgMemberIndex.aspx?bcr=1 → 403 (Dublin City Council list page) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=824 → 403 (Racheal Batten profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=824 → 403 (Racheal Batten record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=144 → 403 (Declan Flanagan profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=144 → 403 (Declan Flanagan record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1161 → 403 (Jesslyn Henry profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1161 → 403 (Jesslyn Henry record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=159 → 403 (John Lyons profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=159 → 403 (John Lyons record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=197 → 403 (Edel Moran profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=197 → 403 (Edel Moran record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1162 → 403 (Aishling Silke profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1162 → 403 (Aishling Silke record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1163 → 403 (Ray Cunningham profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1163 → 403 (Ray Cunningham record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=120 → 403 (Daithí Doolan profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=120 → 403 (Daithí Doolan record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=153 → 403 (Vincent Jackson profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=153 → 403 (Vincent Jackson record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=200 → 403 (Hazel de Nortúin profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=200 → 403 (Hazel de Nortúin record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1164 → 403 (Philip Sutcliffe profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1164 → 403 (Philip Sutcliffe record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=826 → 403 (Mary Callaghan profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=826 → 403 (Mary Callaghan record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=138 → 403 (Anthony Connaghan profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=138 → 403 (Anthony Connaghan record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=828 → 403 (Keith Connolly profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=828 → 403 (Keith Connolly record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1165 → 403 (Leslie Kane profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1165 → 403 (Leslie Kane record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1166 → 403 (Gavin Pepper profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1166 → 403 (Gavin Pepper record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1167 → 403 (Conor Reddy profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1167 → 403 (Conor Reddy record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1168 → 403 (Feljin Jose profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1168 → 403 (Feljin Jose record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=165 → 403 (Séamas McGrattan profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=165 → 403 (Séamas McGrattan record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=939 → 403 (Cat O'Driscoll profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=939 → 403 (Cat O'Driscoll record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=834 → 403 (Colm O'Rourke profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=834 → 403 (Colm O'Rourke record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=179 → 403 (Cieran Perry profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=179 → 403 (Cieran Perry record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1169 → 403 (Gayle Ralph profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1169 → 403 (Gayle Ralph record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1170 → 403 (John Stephens profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1170 → 403 (John Stephens record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1238 → 403 (Kevin Breen profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1238 → 403 (Kevin Breen record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=836 → 403 (Donna Cooney profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=836 → 403 (Donna Cooney record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1171 → 403 (Alison Field profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1171 → 403 (Alison Field record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=151 → 403 (Deirdre Heney profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=151 → 403 (Deirdre Heney record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1244 → 403 (Clodagh Ní Mhuirí profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1244 → 403 (Clodagh Ní Mhuirí record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1105 → 403 (Karl Stanley profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1105 → 403 (Karl Stanley record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=823 → 403 (Daryl Barron profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=823 → 403 (Daryl Barron record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=160 → 403 (Micheál MacDonncha profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=160 → 403 (Micheál MacDonncha record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1242 → 403 (Aoibheann Mahon profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1242 → 403 (Aoibheann Mahon record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1173 → 403 (Paddy Monahan profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1173 → 403 (Paddy Monahan record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1174 → 403 (Supriya Singh profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1174 → 403 (Supriya Singh record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1264 → 403 (Noelle Brown profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1264 → 403 (Noelle Brown record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1116 → 403 (Fiona Connelly profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1116 → 403 (Fiona Connelly record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=142 → 403 (Pat Dunne profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=142 → 403 (Pat Dunne record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1185 → 403 (Patrick Kinsella profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1185 → 403 (Patrick Kinsella record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=937 → 403 (Carolyn Moore profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=937 → 403 (Carolyn Moore record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1184 → 403 (Punam Rane profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1184 → 403 (Punam Rane record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=132 → 403 (Janice Boylan profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=132 → 403 (Janice Boylan record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=134 → 403 (Christy Burke profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=134 → 403 (Christy Burke record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=856 → 403 (Janet Horner profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=856 → 403 (Janet Horner record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=162 → 403 (Ray McAdam profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=162 → 403 (Ray McAdam record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1392 → 403 (Ellen O'Doherty profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1392 → 403 (Ellen O'Doherty record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=180 → 403 (Nial Ring profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=180 → 403 (Nial Ring record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1180 → 403 (Malachy Steenson profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1180 → 403 (Malachy Steenson record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1181 → 403 (Emma Blain profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1181 → 403 (Emma Blain record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=827 → 403 (Hazel Chu profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=827 → 403 (Hazel Chu record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1237 → 403 (David Coffey profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1237 → 403 (David Coffey record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1182 → 403 (Rory Hogan profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1182 → 403 (Rory Hogan record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=158 → 403 (Dermot Lacey profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=158 → 403 (Dermot Lacey record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=135 → 403 (Claire Byrne profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=135 → 403 (Claire Byrne record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=825 → 403 (Danny Byrne profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=825 → 403 (Danny Byrne record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1178 → 403 (Cian Farrell profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1178 → 403 (Cian Farrell record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=145 → 403 (Mannix Flynn profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=145 → 403 (Mannix Flynn record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1179 → 403 (Kourtney Kenny profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1179 → 403 (Kourtney Kenny record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1176 → 403 (Ammar Ali profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1176 → 403 (Ammar Ali record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1240 → 403 (Lesley Byrne profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1240 → 403 (Lesley Byrne record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1239 → 403 (Ciaran Ó Meachair profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1239 → 403 (Ciaran Ó Meachair record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=950 → 403 (Darragh Moriarty profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=950 → 403 (Darragh Moriarty record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=845 → 403 (Michael Pidgeon profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=845 → 403 (Michael Pidgeon record_url) — likely bot-blocking of CI IPs, fine in a browser
 
 ## Kept last-good
 - Cat O'Driscoll (Dublin City Council) not in refreshed dataset — kept last-good, verify on council site
 - Karl Stanley (Dublin City Council) not in refreshed dataset — kept last-good, verify on council site
 - Ellen O'Doherty (Dublin City Council) not in refreshed dataset — kept last-good, verify on council site
-
-## Changes applied
-- Aishling Silke: party/email updated from dcc dataset
-- Ray Cunningham: party/email updated from dcc dataset
-- Philip Sutcliffe: party/email updated from dcc dataset
-- Feljin Jose: party/email updated from dcc dataset
-- Donna Cooney: party/email updated from dcc dataset
-- Carolyn Moore: party/email updated from dcc dataset
-- Janet Horner: party/email updated from dcc dataset
-- Hazel Chu: party/email updated from dcc dataset
-- Claire Byrne: party/email updated from dcc dataset
-- Michael Pidgeon: party/email updated from dcc dataset
 
