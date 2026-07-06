@@ -132,7 +132,7 @@
 - https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1239 → 403 (Ciaran Ó Meachair profile_url) — likely bot-blocking of CI IPs, fine in a browser
 - https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1239 → 403 (Ciaran Ó Meachair record_url) — likely bot-blocking of CI IPs, fine in a browser
 - https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=950 → 403 (Darragh Moriarty profile_url) — likely bot-blocking of CI IPs, fine in a browser
-- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=950 → fetch failed (Darragh Moriarty record_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=950 → 403 (Darragh Moriarty record_url) — likely bot-blocking of CI IPs, fine in a browser
 - https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=845 → 403 (Michael Pidgeon profile_url) — likely bot-blocking of CI IPs, fine in a browser
 - https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=845 → 403 (Michael Pidgeon record_url) — likely bot-blocking of CI IPs, fine in a browser
 
