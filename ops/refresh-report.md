@@ -1,4 +1,4 @@
-# Monthly self-report — 2026-07-06
+# Monthly self-report — 2026-08-03
 
 - Rows refreshed from open datasets: **60**
 - Dead links: **0**
@@ -129,7 +129,7 @@
 - https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1176 → 403 (Ammar Ali record_url) — likely bot-blocking of CI IPs, fine in a browser
 - https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1240 → 403 (Lesley Byrne profile_url) — likely bot-blocking of CI IPs, fine in a browser
 - https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1240 → 403 (Lesley Byrne record_url) — likely bot-blocking of CI IPs, fine in a browser
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1239 → 403 (Ciaran Ó Meachair profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1239 → fetch failed (Ciaran Ó Meachair profile_url) — likely bot-blocking of CI IPs, fine in a browser
 - https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1239 → 403 (Ciaran Ó Meachair record_url) — likely bot-blocking of CI IPs, fine in a browser
 - https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=950 → 403 (Darragh Moriarty profile_url) — likely bot-blocking of CI IPs, fine in a browser
 - https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=950 → 403 (Darragh Moriarty record_url) — likely bot-blocking of CI IPs, fine in a browser

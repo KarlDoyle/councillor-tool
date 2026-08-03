@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-06",
+  "generated": "2026-08-03",
   "attribution": "Contains Irish Public Sector Data (Dublin City Council; Dún Laoghaire–Rathdown County Council) licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) licence.",
   "councils": [
     {
@@ -28,7 +28,7 @@
               ],
               "area_committee": "North Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Declan Flanagan",
@@ -47,7 +47,7 @@
               ],
               "area_committee": "North Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Jesslyn Henry",
@@ -66,7 +66,7 @@
               ],
               "area_committee": "North Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "John Lyons",
@@ -85,7 +85,7 @@
               ],
               "area_committee": "North Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Edel Moran",
@@ -103,7 +103,7 @@
               ],
               "area_committee": "North Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Aishling Silke",
@@ -117,7 +117,7 @@
               ],
               "area_committee": "North Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             }
           ]
         },
@@ -142,7 +142,7 @@
               ],
               "area_committee": "South Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Daithí Doolan",
@@ -160,7 +160,7 @@
               ],
               "area_committee": "South Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Vincent Jackson",
@@ -180,7 +180,7 @@
               ],
               "area_committee": "South Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Hazel de Nortúin",
@@ -204,7 +204,7 @@
               ],
               "area_committee": "South Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Philip Sutcliffe",
@@ -220,7 +220,7 @@
               ],
               "area_committee": "South Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             }
           ]
         },
@@ -242,7 +242,7 @@
               ],
               "area_committee": "Noth West Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Anthony Connaghan",
@@ -260,7 +260,7 @@
               ],
               "area_committee": "Noth West Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Keith Connolly",
@@ -277,7 +277,7 @@
               ],
               "area_committee": "Noth West Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Leslie Kane",
@@ -294,7 +294,7 @@
               ],
               "area_committee": "Noth West Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Gavin Pepper",
@@ -310,7 +310,7 @@
               ],
               "area_committee": "Noth West Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Conor Reddy",
@@ -332,7 +332,7 @@
               ],
               "area_committee": "Noth West Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             }
           ]
         },
@@ -356,7 +356,7 @@
               ],
               "area_committee": "Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Séamas McGrattan",
@@ -377,7 +377,7 @@
               ],
               "area_committee": "Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Cat O'Driscoll",
@@ -420,7 +420,7 @@
               ],
               "area_committee": "Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Cieran Perry",
@@ -440,7 +440,7 @@
               ],
               "area_committee": "Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Gayle Ralph",
@@ -461,7 +461,7 @@
               ],
               "area_committee": "Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "John Stephens",
@@ -481,7 +481,7 @@
               ],
               "area_committee": "Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             }
           ]
         },
@@ -506,7 +506,7 @@
               ],
               "area_committee": "North Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Donna Cooney",
@@ -533,7 +533,7 @@
               ],
               "area_committee": "North Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Alison Field",
@@ -553,7 +553,7 @@
               ],
               "area_committee": "North Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Deirdre Heney",
@@ -578,7 +578,7 @@
               ],
               "area_committee": "North Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Clodagh Ní Mhuirí",
@@ -602,7 +602,7 @@
               ],
               "area_committee": "North Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Karl Stanley",
@@ -649,7 +649,7 @@
               ],
               "area_committee": "North Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Micheál MacDonncha",
@@ -671,7 +671,7 @@
               ],
               "area_committee": "North Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Aoibheann Mahon",
@@ -690,7 +690,7 @@
               ],
               "area_committee": "North Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Paddy Monahan",
@@ -706,7 +706,7 @@
               ],
               "area_committee": "North Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Supriya Singh",
@@ -725,7 +725,7 @@
               ],
               "area_committee": "North Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             }
           ]
         },
@@ -750,7 +750,7 @@
               ],
               "area_committee": "South East Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Fiona Connelly",
@@ -774,7 +774,7 @@
               ],
               "area_committee": "South East Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Pat Dunne",
@@ -790,7 +790,7 @@
               ],
               "area_committee": "South East Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Patrick Kinsella",
@@ -808,7 +808,7 @@
               ],
               "area_committee": "South East Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Carolyn Moore",
@@ -830,7 +830,7 @@
               ],
               "area_committee": "South East Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Punam Rane",
@@ -849,7 +849,7 @@
               ],
               "area_committee": "South East Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             }
           ]
         },
@@ -873,7 +873,7 @@
               ],
               "area_committee": "Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Christy Burke",
@@ -890,7 +890,7 @@
               ],
               "area_committee": "Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Janet Horner",
@@ -910,7 +910,7 @@
               ],
               "area_committee": "Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Ray McAdam",
@@ -931,7 +931,7 @@
               ],
               "area_committee": "Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Ellen O'Doherty",
@@ -968,7 +968,7 @@
               ],
               "area_committee": "Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Malachy Steenson",
@@ -985,7 +985,7 @@
               ],
               "area_committee": "Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             }
           ]
         },
@@ -1008,7 +1008,7 @@
               ],
               "area_committee": "South East Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Hazel Chu",
@@ -1027,7 +1027,7 @@
               ],
               "area_committee": "South East Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "David Coffey",
@@ -1044,7 +1044,7 @@
               ],
               "area_committee": "South East Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Rory Hogan",
@@ -1062,7 +1062,7 @@
               ],
               "area_committee": "South East Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Dermot Lacey",
@@ -1083,7 +1083,7 @@
               ],
               "area_committee": "South East Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             }
           ]
         },
@@ -1105,7 +1105,7 @@
               ],
               "area_committee": "South East Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Danny Byrne",
@@ -1124,7 +1124,7 @@
               ],
               "area_committee": "South East Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Cian Farrell",
@@ -1142,7 +1142,7 @@
               ],
               "area_committee": "South East Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Mannix Flynn",
@@ -1161,7 +1161,7 @@
               ],
               "area_committee": "South East Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Kourtney Kenny",
@@ -1179,7 +1179,7 @@
               ],
               "area_committee": "South East Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             }
           ]
         },
@@ -1205,7 +1205,7 @@
               ],
               "area_committee": "South Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Lesley Byrne",
@@ -1226,7 +1226,7 @@
               ],
               "area_committee": "South Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Ciaran Ó Meachair",
@@ -1247,7 +1247,7 @@
               ],
               "area_committee": "South Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Darragh Moriarty",
@@ -1267,7 +1267,7 @@
               ],
               "area_committee": "South Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             },
             {
               "name": "Michael Pidgeon",
@@ -1284,7 +1284,7 @@
               ],
               "area_committee": "South Central Area Committee",
               "source": "councilmeetings.dublincity.ie member index + Councillor Details DCC dataset (CC-BY 4.0)",
-              "retrieved": "2026-07-06"
+              "retrieved": "2026-08-03"
             }
           ]
         }
