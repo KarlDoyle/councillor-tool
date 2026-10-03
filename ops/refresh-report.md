@@ -1,4 +1,4 @@
-# Monthly self-report — 2026-09-03
+# Monthly self-report — 2026-10-03
 
 - Rows refreshed from open datasets: **60**
 - Dead links: **0**
@@ -23,7 +23,7 @@
 - https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1162 → 403 (Aishling Silke record_url) — likely bot-blocking of CI IPs, fine in a browser
 - https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1163 → 403 (Ray Cunningham profile_url) — likely bot-blocking of CI IPs, fine in a browser
 - https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1163 → 403 (Ray Cunningham record_url) — likely bot-blocking of CI IPs, fine in a browser
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=120 → 403 (Daithí Doolan profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=120 → fetch failed (Daithí Doolan profile_url) — likely bot-blocking of CI IPs, fine in a browser
 - https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=120 → 403 (Daithí Doolan record_url) — likely bot-blocking of CI IPs, fine in a browser
 - https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=153 → 403 (Vincent Jackson profile_url) — likely bot-blocking of CI IPs, fine in a browser
 - https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=153 → 403 (Vincent Jackson record_url) — likely bot-blocking of CI IPs, fine in a browser
@@ -109,7 +109,7 @@
 - https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1181 → 403 (Emma Blain record_url) — likely bot-blocking of CI IPs, fine in a browser
 - https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=827 → 403 (Hazel Chu profile_url) — likely bot-blocking of CI IPs, fine in a browser
 - https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=827 → 403 (Hazel Chu record_url) — likely bot-blocking of CI IPs, fine in a browser
-- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1237 → 403 (David Coffey profile_url) — likely bot-blocking of CI IPs, fine in a browser
+- https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1237 → fetch failed (David Coffey profile_url) — likely bot-blocking of CI IPs, fine in a browser
 - https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1237 → 403 (David Coffey record_url) — likely bot-blocking of CI IPs, fine in a browser
 - https://councilmeetings.dublincity.ie/mgUserInfo.aspx?UID=1182 → 403 (Rory Hogan profile_url) — likely bot-blocking of CI IPs, fine in a browser
 - https://councilmeetings.dublincity.ie/mgAttendance.aspx?UID=1182 → 403 (Rory Hogan record_url) — likely bot-blocking of CI IPs, fine in a browser
