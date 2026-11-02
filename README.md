@@ -25,6 +25,8 @@ and [data.gov.ie](https://data.gov.ie) open datasets. Councillors change party,
 resign, or get co-opted between elections — always verify against the council's
 official site (linked throughout).
 
+Technical notes cover the [site architecture](docs/architecture.md), [refresh validation and fallback](docs/validation-and-fallback.md), and [offline refresh tests](docs/testing.md).
+
 ## Share links — for councillors, residents' groups and PPNs
 
 You can link people straight to their patch: `?a=<area>` preselects the area, and

@@ -18,6 +18,7 @@
 import { readFileSync, writeFileSync, appendFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { applyDatasetRows, classifyLinkFailure, parseCsv } from './refresh-lib.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const today = new Date().toISOString().slice(0, 10);
@@ -39,34 +40,6 @@ async function fetchOk(url, asText = false, encoding = 'utf-8') {
     return { ok: true, body: asText ? new TextDecoder(encoding).decode(await res.arrayBuffer()) : null };
   } catch (e) { return { ok: false, status: String(e.message ?? e) }; }
 }
-const clean = s => typeof s === 'string' && !s.includes('�'); // refuse mojibake
-
-// Minimal CSV parser (quoted fields, commas, newlines)
-function parseCsv(text) {
-  const rows = []; let row = [], field = '', inQ = false;
-  for (let i = 0; i < text.length; i++) {
-    const ch = text[i];
-    if (inQ) {
-      if (ch === '"') { if (text[i + 1] === '"') { field += '"'; i++; } else inQ = false; }
-      else field += ch;
-    } else if (ch === '"') inQ = true;
-    else if (ch === ',') { row.push(field); field = ''; }
-    else if (ch === '\n' || ch === '\r') {
-      if (ch === '\r' && text[i + 1] === '\n') i++;
-      row.push(field); field = '';
-      if (row.some(f => f !== '')) rows.push(row);
-      row = [];
-    } else field += ch;
-  }
-  if (field !== '' || row.length) { row.push(field); rows.push(row); }
-  if (!rows.length) return [];
-  const head = rows[0].map(h => h.trim().toLowerCase());
-  return rows.slice(1).map(r => Object.fromEntries(head.map((h, i) => [h, (r[i] ?? '').trim()])));
-}
-
-const norm = s => (s ?? '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
-  .replace(/\b(cllr|councillor|cllr\.)\b/g, '').replace(/[^a-z ]/g, '').replace(/\s+/g, ' ').trim();
-
 // ---- 1+2: dataset refresh --------------------------------------------------
 for (const src of sources) {
   const council = data.councils.find(c => c.id === src.council_id);
@@ -78,23 +51,11 @@ for (const src of sources) {
     rows = src.format === 'json' ? JSON.parse(res.body) : parseCsv(res.body);
     if (!Array.isArray(rows)) rows = rows.results ?? rows.records ?? rows.data ?? [];
   } catch (e) { report.datasetFailures.push(`${src.council_id}: parse failed (${e.message}) (kept last-good)`); continue; }
-  const byName = new Map();
-  for (const r of rows) {
-    const name = r[src.fields?.name ?? 'name'] ?? r['full name'] ?? r['councillor'];
-    if (name) byName.set(norm(name), r);
-  }
-  if (!byName.size) { report.datasetFailures.push(`${src.council_id}: dataset empty/unrecognised (kept last-good)`); continue; }
-  for (const lea of council.leas) for (const c of lea.councillors) {
-    const match = byName.get(norm(c.name));
-    if (!match) { report.staleRows.push(`${c.name} (${council.name}) not in refreshed dataset — kept last-good, verify on council site`); continue; }
-    const party = match[src.fields?.party ?? 'party'];
-    const email = match[src.fields?.email ?? 'email'];
-    let changed = false;
-    if (clean(party) && party && party !== c.party) { c.party = party; changed = true; }
-    if (clean(email) && email && email !== c.email) { c.email = email; changed = true; }
-    c.retrieved = today; report.refreshed++;
-    if (changed) report.notes.push(`${c.name}: party/email updated from ${src.council_id} dataset`);
-  }
+  const result = applyDatasetRows(council, rows, src.fields, today);
+  if (!result.ok) { report.datasetFailures.push(`${src.council_id}: dataset empty/unrecognised (kept last-good)`); continue; }
+  report.refreshed += result.refreshed;
+  report.staleRows.push(...result.staleRows);
+  report.notes.push(...result.notes);
 }
 
 // ---- 3: link validation ----------------------------------------------------
@@ -109,12 +70,10 @@ for (const council of data.councils) {
 // from a CI runner usually means the council site bot-blocks datacentre IPs (verified
 // 2026-07-06: councilmeetings.dublincity.ie 403s GitHub runners but serves browsers fine)
 // — report those as unverifiable, never as action-needed, or every month cries wolf.
-const HARD_DEAD = new Set([404, 410]);
 for (const [url, labels] of urls) {
   const res = await fetchOk(url);
   if (res.ok) continue;
-  const gone = HARD_DEAD.has(res.status) ||
-    (typeof res.status === 'string' && /ENOTFOUND|EAI_AGAIN|certificate/i.test(res.status));
+  const gone = classifyLinkFailure(res.status) === 'dead';
   if (gone) report.deadLinks.push(`${url} → ${res.status} (${labels.join(', ')}) — kept last-good`);
   else report.blocked.push(`${url} → ${res.status} (${labels.join(', ')}) — likely bot-blocking of CI IPs, fine in a browser`);
 }

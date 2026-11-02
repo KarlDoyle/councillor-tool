@@ -2,9 +2,8 @@
 
 Karl's requirement: after the one-time gates, he never touches this again.
 
-**The loop (monthly, lights-out):** `monthly-refresh.yml` (staged here, inert —
-GitHub only runs workflows from `.github/workflows/`, where DEPLOY.md's Option A
-moves it at deploy time) runs `scripts/refresh.mjs`:
+**The loop (monthly, lights-out):** `.github/workflows/monthly-refresh.yml` runs
+`scripts/refresh.mjs` on the monthly schedule and supports manual dispatch:
 
 1. Re-fetch the open datasets in `data/sources.json` and refresh party/email per
    councillor (name-matched; hand-curated `focus` fields are never overwritten).
